@@ -1,0 +1,107 @@
+\documentclass[authoryear]{elsarticle}
+
+%---------------- Pacotes ----------------%
+\usepackage[utf8]{inputenc}  % Codificação UTF-8
+\usepackage{array}           % Melhor controle de colunas em tabelas
+\usepackage{geometry}        % Ajuste de margens
+\usepackage{longtable}       % Tabelas longas
+\usepackage{graphicx}        % Inclusão de imagens
+\usepackage{hyperref}        % Links clicáveis
+
+%---------------- Configuração da página ----------------%
+\geometry{a4paper, margin=1.5cm}
+
+%---------------- Rodapé personalizado ----------------%
+% Substitui o rodapé padrão "Submitted to Elsevier" por texto próprio
+\makeatletter
+\def\ps@pprintTitle{%
+	\let\@oddhead\@empty
+	\let\@evenhead\@empty
+	\def\@oddfoot{\footnotesize \textit{Submitted by Prof. Jonatha Costa, CCECA} \hspace{10cm} \textit{\today}\hfill}%
+	\let\@evenfoot\@oddfoot
+}
+\makeatother
+
+\begin{document}
+	
+	\begin{frontmatter}
+		\title{IFCE \textit{campus Macaranaú}\\Regulamento da Organização Didática (ROD)\\
+			Tabela Resumo de processos com requisitos e prazos}
+		
+		\begin{abstract}
+			Este documento apresenta um conjunto de tabelas resumidas e detalhadas referentes ao Regulamento da Organização Didática (ROD) de cursos superiores, com ênfase nas normas de matrícula, reingresso, trancamento de disciplinas, aproveitamento de componentes curriculares e validação de conhecimentos. As tabelas foram estruturadas para fornecer consulta rápida e detalhada, permitindo que estudantes, docentes e gestores acadêmicos identifiquem prazos, requisitos e artigos específicos do regulamento de forma eficiente. Links diretos para o ROD completo, hospedado online, facilitam a verificação das seções e artigos correspondentes. Este trabalho visa aprimorar a organização acadêmica e promover maior transparência e acessibilidade às normas institucionais.
+		\end{abstract}
+		
+	\end{frontmatter}
+	
+\section*{Introdução}
+Este documento apresenta um resumo do Regulamento da Organização Didática (ROD) dos cursos superiores, especialmente útil para a Coordenação do Curso de Engenharia de Controle e Automação (CCECA), bem como para corpo docente e discente. Na Tabela \ref{tab:prazos_rod} são apresentados itens como matrícula, reingresso, trancamento de disciplinas, aproveitamento e validação de componentes curriculares, facilitando consulta rápida às normas institucionais.
+
+	%---------------- Tabela Enxuta ----------------%
+%	\section*{Tabela Enxuta – Consulta Rápida}
+%	
+%	\begin{table}[h!]
+%		\centering \scriptsize
+%		\begin{tabular}{|c|p{5cm}|p{6cm}|p{5cm}|}
+%			\hline
+%			\textbf{Id} & \textbf{Tema} & \textbf{Prazo} & \textbf{ROD (Seção/Artigo)} \\
+%			\hline
+%			1 & Aproveitamento de Componentes Curriculares & Ingressantes: até 10 dias. Veteranos: até 30 dias. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção I – Art. 105--110} \\
+%			\hline
+%			2 & Revisão de Aproveitamento & Até 5 dias após divulgação. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção I – Art. 111} \\
+%			\hline
+%			3 & Conclusão do Processo de Aproveitamento & Até 30 dias após solicitação inicial. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção I – Art. 112} \\
+%			\hline
+%			4 & Validação de Conhecimentos & Conforme calendário. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção II – Art. 113--116} \\
+%			\hline
+%			5 & Matrícula Inicial & Conforme edital. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. II – Seção I – Art. 75--78} \\
+%			\hline
+%			6 & Renovação de Matrícula & Conforme calendário acadêmico. Regularização: até 5 dias. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. II – Seção II – Art. 79--81} \\
+%			\hline
+%			7 & Matrícula Especial & Solicitação nos 50 primeiros dias do período anterior. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. I – Seção III – Art. 63--69} \\
+%			\hline
+%			8 & Reingresso & Até 5 anos após saída. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. I – Seção IV – Art. 70--72} \\
+%			\hline
+%			9 & Trancamento de Matrícula (presencial) & Máx. 4 semestres ou 2 anos. Não permitido no 1º período (salvo exceções). & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. V – Seção I – Art. 117--122} \\
+%			\hline
+%			10 & Trancamento de Componente Curricular & Até 30 dias do início do período. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. V – Seção II – Art. 123--124} \\
+%			\hline
+%		\end{tabular}
+%	\end{table}
+%	
+	%---------------- Tabela Detalhada ----------------%
+	\section*{Tabela Completa – Detalhada}
+	\scriptsize
+	
+	\begin{longtable}{|c|p{3cm}|p{3cm}|p{3.5cm}|p{3.5cm}|p{2cm}|}  
+		\caption{Resumo de normas do ROD\label{tab:prazos_rod}} \\
+		\hline 
+		\textbf{Id} & \textbf{Tema} & \textbf{Descrição} & \textbf{Prazo} & \textbf{Observações/Requisitos} & \textbf{ROD (Seção/Artigo)} \\
+		\hline
+		1 & Aproveitamento de Componentes Curriculares & Disciplinas cursadas em outras instituições podem ser aproveitadas. & Ingressantes: até 10 dias. Veteranos: até 30 dias. & Exige $\geq$75\% da carga horária e conteúdo compatível. Proibido para estágio, TCC e atividades complementares. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção I – Art. 105--110} \\
+		\hline
+		2 & Revisão de Aproveitamento & Contestação do resultado. & Até 5 dias após divulgação. & Analisada por dois professores designados. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção I – Art. 111} \\
+		\hline
+		3 & Conclusão do Processo de Aproveitamento & Finalização do trâmite. & Até 30 dias após solicitação inicial. & Inclui análise e eventual revisão. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção I – Art. 112} \\
+		\hline
+		4 & Validação de Conhecimentos & Reconhecimento de saberes prévios. & Solicitação conforme calen\-dário. & Avaliação por banca de 2 docentes. Nota mínima: 7,0 (graduação). & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. IV – Seção II – Art. 113--116} \\
+		\hline
+		5 & Matrícula Inicial & Ingresso após processo seletivo. & Conforme edital. & Obrigatório cursar todos os componentes do 1º semestre. A partir do 2º: mínimo 12 créditos. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. II – Seção I – Art. 75--78} \\
+		\hline
+		6 & Renovação de Matrícula & Confirmação de vínculo acadêmico. & Definido em calendário. Regularização até 5 dias após prazo online. & Se não renovada, caracteriza abandono. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. II – Seção II – Art. 79--81} \\
+		\hline
+		7 & Matrícula Especial & Permite cursar disciplinas isoladas. & Solicitação nos 50 primeiros dias do período anterior. & Máx. 3 disciplinas (salvo revalidação de diploma estrangeiro). Não gera vínculo. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. I – Seção III – Art. 63--69} \\
+		\hline
+		8 & Reingresso & Retorno após abandono. & Máx. 5 anos após saída. & Exige vaga e nada consta da biblioteca. Proibido se abandono ocorreu no 1º período/ano. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. I – Seção IV – Art. 70--72} \\
+		\hline
+		9 & Trancamento de Matrícula (presencial) & Suspensão temporária dos estudos. & A qualquer tempo, exceto no 1º período. & Máx. 4 semestres ou 2 anos. Necessário nada consta da biblioteca. Exceções: doença, gravidez de risco, serviço militar. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. V – Seção I – Art. 117--122} \\
+		\hline
+		10 & Trancamento de Componente Curricular & Trancar disciplina específica. & Até 30 dias após início do período letivo. & Permitido apenas se mantiver $\geq$12 créditos. Proibido no 1º período. & \href{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}{Cap. V – Seção II – Art. 123--124} \\
+		\hline
+		\multicolumn{6}{|c|}{\scriptsize Fonte: Autor, 2005} \\
+	\end{longtable}
+	\section*{Referência}
+	Regulamento da Organização Didática (ROD). Disponível em: 
+	\url{https://github.com/JonathaCosta-IA/CCECA/blob/main/02_Rod_atualizado1.pdf}. Acessado em: 05/09/2025.
+	
+\end{document}
