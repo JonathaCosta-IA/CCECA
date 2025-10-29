@@ -1,0 +1,136 @@
+
+\def\PUDcodigo{ECA212}
+
+\if\COMPILAR0
+    \def\PUDcodacad{04507.21}
+\else
+    \def\PUDcodacad{04506.22}
+\fi
+
+\def\PUDdisciplina{Métodos Numéricos}
+
+\def\PUDsemestre{S4}
+
+\def\PUDhoras{80}
+
+%NOVOS ---------------------------------------------------
+\def\PUDhorasTeoria{55}
+\def\PUDhorasPratica{25}
+
+\if\COMPILAR0
+    \def\PUDinterECA{
+    \hyperref[PUD:ACE002]{Álgebra Linear (04507.1)}
+    
+    \hyperref[PUD:ACE003]{Cálculo 1 (04507.2)}
+    
+    \hyperref[PUD:ACE006]{Cálculo 2 (04507.7)}
+    
+    \hyperref[PUD:ECA208]{Lógica de Programação (04507.10)}
+    
+    \hyperref[PUD:ECA209]{Linguagem de Programação (04507.14)}
+    
+    \hyperref[PUD:ECA218]{Identificação de Sistemas (04507.56)}
+    }
+\else
+    \def\PUDinterECA{
+    \hyperref[PUD:ACE002]{Álgebra Linear (04506.1)}
+    
+    \hyperref[PUD:ACE003]{Cálculo 1 (04506.2)}
+    
+    \hyperref[PUD:ACE006]{Cálculo 2 (04506.7)}
+    
+    \hyperref[PUD:ECA208]{Lógica de Programação (04506.11)}
+    
+    \hyperref[PUD:ECA209]{Linguagem de Programação (04506.15)}
+    }
+\fi
+
+\def\PUDatuaisECA{---}
+
+\def\PUDrecursos{Projetor multimídia; Quadro branco e pincel; Aulas em laboratório de informática.}
+
+%----------------------------------------------------------
+
+\def\PUDcreditos{4}
+
+\def\PUDprerequisito{ \hyperref[PUD:ECA209]{ECA209} }
+
+\if\COMPILAR0
+    \def\PUDpreacad{ \hyperref[PUD:ECA209]{Linguagem de Programação (04507.14)} }
+\else
+    \def\PUDpreacad{ \hyperref[PUD:ECA209]{Linguagem de Programação (04506.15)} }
+\fi
+
+\def\PUDobjetivos{Conhecer as ferramentas básicas de cálculo numérico.  Aplicar as ferramentas na resolução de problemas de engenharia.}
+
+\def\PUDementa{Fundamentos Matemáticos. Sistemas de numeração e Aritmética do Ponto Flutuante. Erros e Armazenamentos de Dados. Diferenciação e Integração numérica. Ajuste de Curvas. Solução de equações lineares e não lineares.
+%Aritmética de ponto flutuante.  Zeros de funções reais.  Solução de equações lineares.  Ajuste de curvas: método dos quadrados mínimos.  Interpolação polinomial e aproximação.  Derivação e Integração numérica.  Quadrados mínimos.  Tratamento numérico de equações diferenciais ordinárias.
+}
+
+\def\PUDconteudo{ & Fundamentos Matemáticos (Função, limite, derivada e integral).
+%Zero de funções. Isolamento das raízes. Método da Bissecção. Método iterativo linear. Método de Newton-Raphson.  
+\\ 
+ & Sistemas de Numeração (Binário x Decimal. Operações aritméticas elementares).
+ %Sistemas lineares. Métodos diretos. Métodos iterativos. 
+\\ 
+ & Aritmética do Ponto Flutuante, e Erros de Arredondamento e Truncamento. Armazenamento de Dados.
+ %Ajuste de curvas. Método dos mínimos quadrados. 
+\\ 
+ & Diferenciação Numérica (Progressiva, regressiva e central).
+ %Interpolação polinomial. Forma de Lagrange. Forma de Newton. Interpolação inversa. 
+\\ 
+ & Integração Numérica (Método do retângulo, ponto central e trapézio. Método de 1/3 e 3/8 de Simpson simples e composto).
+ %Integração numérica. Regra do trapézio. Regra de Simpson.  
+\\ 
+ & Ajuste de Curvas (Interpolação e extrapolação. Regressão Linear por Mínimos Quadrados. Linearização de Eq. não lineares. Polinômio de Lagrange e de Newton. Splines Linear, quadrática e cúbica).
+ %Equações diferenciais ordinárias. Método de Euler. Métodos de Runge-Kutta. Métodos de Adans-Bashforth. Equações de ordem superior. 
+\\ 
+ & Resolução de Eq. Lineares (Métodos Diretos: Eliminação de Gauss, Gauss-Jordan, Fatoração LU, Método de Crout e Inversa de uma matriz, e Iterativos: Gauss-Jacobi e Gauss-Seidel).
+ %Aplicações práticas em problemas de engenharia. 
+ \\
+ & Resolvendo Eq. não lineares (Método da Bisseção, regula-falsi, Newton-Raphson e secante).
+ \\
+ & Aplicações práticas em problemas de engenharia.
+ }
+ 
+\def\PUDmetodo{Aulas expositórias que podem ser teóricas e/ou práticas, onde as práticas no laboratório serão marcadas no decorrer da disciplina.}
+
+\def\PUDavalia{A avaliação será feita com aplicação de provas teóricas e/ou práticas, além da possibilidade de inclusão de trabalhos e seminários no decorrer da disciplina.}
+
+\def\PUDbibbasica{ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=40054}{Burian}, Reinaldo.  Cálculo numérico.  Rio de Janeiro, RJ: LTC, 2013.  153p.  ISBN: 9788521615620.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=40029}{Franco}, Neide Bertoldi.  Cálculo numérico.  São Paulo, SP: Pearson Prentice Hall, 2013.  505p.  ISBN: 9788576050872.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=41954}{Chapra}, Steven C.  Métodos numéricos para engenharia.  5º ed.  São Paulo, SP: McGraw-Hill, 2014.  809p.  ISBN: 9788586804878. }
+%&  GILAT, Amos;  SUBRAMANIAN, Vish.  Métodos numéricos para engenheiros e cientistas: uma introdução com aplicações usando o Matlab.  4a.  ed.  Porto Alegre: Bookman, 2012.  479p.  ISBN 9788540701861
+%\\ 
+ %&  MAIA, Miriam Lourenço et al.  Cálculo numérico: com aplicações.  2. ed.  São Paulo (SP): Harbra, 1987.  367 p.  ISBN 9788529400891
+%\\ 
+ %&  RUGGIERO, Márcia A.  Gomes;  LOPES, Vera Lúcia da Rocha.  Cálculo numérico: aspectos teóricos e computacionais.  2. ed.  São Paulo (SP): Pearson Makron Books, 2005.  406 p.  ISBN 9788534602044. }
+
+\def\PUDbibcomplementar{ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=40051}{Burden}, Richard L.  Análise numérica.  São Paulo, SP: Cengage Learning, 2013.  721p.  ISBN: 9788522106011.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=62475}{Gilat}, Amos.  MATLAB com aplicações em engenharia.  4º ed.  Porto Alegre, RS: Bookman, 2012.  417p.  ISBN: 9788540701861.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24241}{Chapman}, Stephen J.  Programação em MATLAB para engenheiros.  2º ed.  São Paulo, SP: Cengage Learning, 2010.  410p.  ISBN: 9788522107896.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=58267}{Sperandio}, Décio; Mendes, João Teixeira; Silva, Luiz Henry Monken e.  Cálculo numérico.  E-book.  2º ed.  Pearson.  360p.  ISBN: 9788543006536.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=40031}{Dahmen}, Sílvio Renato. 	Métodos numéricos aplicados: rotinas em C++ .  3º ed.  Porto Alegre, RS: Bookman, 2011.  1261p.  ISBN: 9788577808861. }
+%& MIRSHAWKA, Victor.  Cálculo numérico.  São Paulo (SP): Nobel, 1979.  601 p. 
+%\\ 
+ %&  SANTOS, Vitoriano Ruas de Barros.  Curso de cálculo numérico.  4a.  ed.  Rio de Janeiro (RJ): Livro Técnico, 1972.  256 p ISBN 9788521601562
+%\\ 
+ %& CORMEN, T.  H.  et al.  Algoritmos: teoria e prática.  2a.  ed, Rio de Janeiro: Elsevier/Campus, 2002.  916 p.  ISBN : 9788535209266  (30 exemplares). }
+
+\def\PUDautor{Geraldo Luis Bezerra Ramalho}
+
+\def\PUDdata{2013-04-17}
+
+\def\PUDrevisao{3}
+
+\def\PUDrevisor{Samuel Vieira Dias}
+
+\def\PUDdatarevisao{2019-05-15}
+
+\PUDcorpo

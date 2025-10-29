@@ -1,0 +1,112 @@
+
+\def\PUDcodigo{ECA210}
+
+\if\COMPILAR0
+   \def\PUDcodacad{04507.20}
+\else
+   \def\PUDcodacad{04506.21}
+\fi
+
+\def\PUDdisciplina{Circuitos Elétricos I}
+
+\def\PUDsemestre{S4}
+
+\def\PUDhoras{80}
+
+%NOVOS ---------------------------------------------------
+\def\PUDhorasTeoria{64}
+\def\PUDhorasPratica{16}
+
+\if\COMPILAR0
+   \def\PUDinterECA{ 
+   \hyperref[PUD:ACE003]{Cálculo 1 (04507.2)} 
+   
+   \hyperref[PUD:ECA215]{Circuitos Elétricos II (04507.24)}
+   
+   \hyperref[PUD:ECA233]{Controle I (04507.31)}
+   }
+\else
+   \def\PUDinterECA{ \hyperref[PUD:ACE003]{Cálculo 1 (04506.2)} }
+\fi
+
+\def\PUDatuaisECA{---}
+
+\def\PUDrecursos{Projetor multimídia; Quadro branco e pincel; Aulas em laboratório de eletroeletrônica.}
+
+%----------------------------------------------------------
+
+\def\PUDcreditos{4}
+
+\def\PUDprerequisito{ \hyperref[PUD:ACE003]{ACE003} }
+
+\if\COMPILAR0
+   \def\PUDpreacad{ \hyperref[PUD:ACE003]{Cálculo 1 (04507.2)} }
+\else
+   \def\PUDpreacad{ \hyperref[PUD:ACE003]{Cálculo 1 (04506.2)} }
+\fi
+
+\def\PUDobjetivos{Aprender os conceitos, grandezas e leis que fundamentam os circuitos em corrente contínua (CC); Entender os métodos de análise e os teoremas que regem o comportamento de circuitos CC; Compreender o funcionamento de circuitos CC com cargas R, RL, RC e RLC em regime transitório e em regime permanente; %Compreender a representação do equacionamento de circuitos CC através de espaço de estados.
+Comprovar experimentalmente, em aulas de laboratório, os fenômenos, leis e teoremas que se aplicam aos circuitos em corrente contínua. 
+}
+
+\def\PUDementa{Definições e Grandezas Elétricas;  Leis de Kirchhoff; Elementos de Circuitos; Circuitos Resistivos;  Métodos de Análise de Circuitos;  Teoremas de Circuitos; Capacitores e Indutores; Circuitos de Primeira e de Segunda Ordem; %Noções de Espaço de Estados.
+}
+
+\def\PUDconteudo{ & Conceitos Básicos: Sistemas de Unidades.  Carga e Corrente Elétricas.  Tensão, Potência e Energia.  Elementos do Circuito. 
+\\ 
+ & Leis Básicas: Lei de Ohm.  Nós, Ramos e Malhas.  Leis de Kirchhoff.  Resistores em Série e Divisão de Tensão.  Resistores em Paralelo e
+Divisão de Corrente. Transformação Estrela-Triângulo.  
+\\ 
+ & Métodos de Análise: Análise Nodal.  Análise de Malha. 
+\\ 
+ & Teoremas de Circuitos: Linearidade.  Superposição.  Transformação de Fontes.  Teorema de Thevenin.  Teorema de Norton.  Máxima Transferência 
+de Potência. 
+\\ 
+ & Capacitores e Indutores: Capacitor.  Associação de Capacitores.  Indutor.  Associação de Indutores.  Indutância Mútua. 
+\\ 
+ & Circuitos de Primeira Ordem: Resposta Natural de um Circuito RL.  Resposta Natural de um Circuito RC.  Resposta a um Degrau de Circuitos
+RL e RC.  Solução Geral para Respostas a um Degrau e Natural. 
+\\ 
+ & Circuitos de Segunda Ordem: Resposta Natural de um Circuito RLC em Paralelo.  Resposta a um Degrau de um Circuito RLC em Paralelo. 
+Resposta Natural de um Circuito RLC em Série.  Resposta a um Degrau de um Circuito RLC em Série. 
+\\ 
+ & %Noções de Espaço de Estados: Introdução à Representação de Circuitos por Espaço de Estados. 
+ Práticas de Laboratório: montagem de circuitos resistivos, medição de tensão e corrente, comprovação dos métodos de análise nodal e de malha e do Teorema de Thevenin, comportamento da resposta de circuitos RC, RL e RLC.}
+
+\def\PUDbibbasica{ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=62512}{Alexander}, C. K.; Sadiku, M. N. O.  Fundamentos de Circuitos Elétricos.  5º ed.  Porto Alegre, RS: AMGH, 2013.  874p.  ISBN: 9788580551723.
+\\ 
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=41345}{Nilsson}, J. W.; Riedel, S. A.  Circuitos Elétricos.  8º ed.  São Paulo, SP: Pearson Prentice Hall, 2009.  574p.  ISBN: 9788576051596.
+\\ 
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=61748}{Boylestad}, R. L.  Introdução à Análise de Circuitos.  12º ed.  São Paulo, SP: Pearson Prentice Hall, 2012.  959p.  ISBN: 9788564574205. }
+
+\def\PUDmetodo{
+%Aulas expositórias que podem ser teóricas e/ou práticas, onde as práticas no laboratório serão marcadas no decorrer da disciplina.
+Aulas teóricas expositivas com auxílio de recursos audio-visuais e atividades práticas em laboratório com roteiros definidos. }
+
+\def\PUDavalia{A avaliação será feita com aplicação de provas teóricas e/ou práticas, além da possibilidade de inclusão de trabalhos e seminários no decorrer da disciplina.}
+
+\def\PUDbibcomplementar{ &
+\href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=23920}{Irwin}, J. D.  Introdução à Análise de Circuitos Elétricos.  1º ed.  Rio de Janeiro, RJ: LTC, 2005.  ISBN: 8521614322.
+%\href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=39837}{Lathi}, B. P.  Sinais e sistemas lineares.  2º ed.  Porto Alegre, RS: Bookman, 2007.  856p.  ISBN: 9788560031139.
+\\ 
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24388}{Wolski}, Belmiro.  Eletricidade básica.  Curitiba, PR: Base Editorial, 2010.  160p.  ISBN: 9788579055416.  
+%& ALEXANDER, C.  K.;  SADIKU, M.  N.  O.  Fundamentos de Circuitos Elétricos.  3 ed.  Porto Alegre: Bookman, 2008.  ISBN 9789780077266
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24522}{Gussow}, Milton.  Eletricidade básica.  2º ed.  Porto Alegre, RS: Bookman, 2009.  ISBN: 9788577802364.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=59567}{Cavalcanti}, P. J. Mendes.  Fundamentos de Eletrotécnica.  E-book.  Editora Freitas Bastos.  228p.  ISBN: 9788579871450.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24184}{Cruz}, Eduardo.  Eletricidade aplicada em corrente contínua: teoria e exercícios.  2º ed.  São Paulo, SP: Érica, 2007. 362p.  ISBN: 9788536500843. }
+ %& O’MALLEY, J.  Análise de Circuitos.  2 ed.  Rio de Janeiro: LTC, 2005.  ISBN 8534601194. }
+
+\def\PUDautor{José Daniel de Alencar Santos}
+
+\def\PUDdata{2013-04-23}
+
+\def\PUDrevisao{2}
+
+\def\PUDrevisor{José Daniel de Alencar Santos}
+
+\def\PUDdatarevisao{2019-05-15}
+
+\PUDcorpo

@@ -1,0 +1,119 @@
+
+\def\PUDcodigo{ECA228}
+
+\if\COMPILAR0
+    \def\PUDcodacad{04507.37}
+\else
+    \def\PUDcodacad{04506.62}
+\fi
+
+\def\PUDdisciplina{Acionamentos Hidráulicos e Pneumáticos}
+
+\def\PUDsemestre{
+\if\COMPILAR0
+    S7
+\else
+    S8
+\fi
+}
+
+\def\PUDhoras{80}
+
+%NOVOS ---------------------------------------------------
+\def\PUDhorasTeoria{60}
+\def\PUDhorasPratica{20}
+
+\if\COMPILAR0
+    \def\PUDinterECA{\hyperref[PUD:ECA211]{Eletrônica I (04507.15)}
+    
+    \hyperref[PUD:ECA219]{Instrumentação (04507.25)}
+    
+    \hyperref[PUD:ECA222]{Instalações Elétricas (04507.30)}
+    
+    \hyperref[PUD:ECA221]{CLP (04507.35)}
+    }
+\else
+    \def\PUDinterECA{\hyperref[PUD:ECA211]{Eletrônica I (04506.16)}
+    
+    \hyperref[PUD:ECA222]{Instalações Elétricas (04506.31)}
+    }
+\fi
+
+\def\PUDatuaisECA{---}
+
+\def\PUDrecursos{Projetor multimídia; Quadro branco e pincel; Aulas em laboratório.}
+
+%----------------------------------------------------------
+
+\def\PUDcreditos{4}
+
+\if\COMPILAR0
+    \def\PUDprerequisito{ \hyperref[PUD:ECA214]{ECA214} }
+\else
+    \def\PUDprerequisito{ \hyperref[PUD:ECA211]{ECA211} }
+\fi
+
+\if\COMPILAR0
+    \def\PUDpreacad{\hyperref[PUD:ECA222]{Instalações Elétricas (04507.30)}}
+\else
+    \def\PUDpreacad{\hyperref[PUD:ECA222]{Instalações Elétricas (04506.31)}
+    }
+\fi
+
+
+\def\PUDobjetivos{Conhecer os principais dispositivos de tratamento do óleo e ar;  Conhecer o princípio de funcionamento de bombas de óleo e/ou compressores de ar;  Conhecer o princípio de funcionamento de válvulas e atuadores;  Construir circuitos hidráulicos e/ou pneumáticos;  Resolver problemas de conflito nos circuitos.}
+
+\def\PUDementa{Introdução ao estudo da hidráulica e pneumática.  Sistemas de tratamento do óleo e ar.  Estudos das válvulas e atuadores.  Análise, simulação e montagem de circuitos hidráulicos e/ou pneumáticos. Resolução de conflitos em circuitos hidráulicos e/ou pneumáticos.}
+
+\def\PUDconteudo{ & Introdução à Pneumática e Hidráulica: características básicas e a utilização da pneumática/hidráulica na indústria - vantagens e desvantagens, conceitos básicos, campo de aplicação, propriedades do ar comprimido, fundamentos físicos do ar e do óleo. Lei geral dos gases perfeitos. Princípio de Pascal
+\\
+& Equipamentos Básicos: Compressores (Pistão e parafuso) e bombas de óleo (engrenagens). Circuitos de regulagem de capacidade. Equipamentos de tratamento de ar. Redes de distribuição. Especificação de tubulações de redes de ar. 
+\\
+%& Preparação e distribuição do ar: princípios de funcionamento dos compressores, tipos de compressores, critérios para escolha de compressores, dimensionamento de reservatório de ar, dimensionamento da rede condutora, rede de distribuição de ar comprimido, processos de secagem do ar, concepção e funcionamento de uma unidade de conservação.
+%\\
+& Elementos Pneumáticos e Hidráulicos (atuadores): atuadores lineares e rotativos, cilindros de ação simples e cilindros de ação dupla, cilindros especiais, cálculo da força do êmbolo, cálculo do consumo de ar, motores pneumáticos (giratórios e oscilantes). 
+\\
+& Elementos Pneumáticos e Hidráulicos (válvulas): famílias de válvulas, classificação das válvulas, válvulas direcionais: simbologia, características funcionais e construtivas; tipos e formas de acionamento, válvulas de fluxo (bidirecional e unidirecional): simbologia, características funcionais e construtivas, válvulas de bloqueio (válvula de: retenção, alternadora e de simultaneidade): simbologia, características funcionais e construtivas, identificação e descrição das válvulas, normas: ISO 1219 e DIN 24300, válvulas puramente pneumáticas e eletroválvulas.
+\\
+%& Introdução a Hidráulica: conceitos básicos, campo de aplicação, características dos sistemas hidráulicos, grandezas físicas e sistemas de medidas. 
+%\\
+& Princípios físicos fundamentais da hidráulica: hidrostática, transmissão hidráulica de força, transmissão hidráulica de pressão, hidrodinâmica, equação da continuidade, conservação de energia - Equação de Bernoulli, perda de carga, escoamento laminar e turbulento, potência hidráulica. 
+\\
+& Fluidos e sistemas hidráulicos: propriedades dos fluidos hidráulicos, viscosidade, compressibilidade, componentes de sistemas hidráulicos, bombas hidráulicas: engrenagens, palhetas, pistões e parafuso, reservatórios e filtros, sistemas de acionamentos. 
+\\
+%& Elementos hidráulicos (válvulas e atuadores): atuadores lineares e rotativos, famílias de válvulas, classificação das válvulas, válvulas direcionais, tipos e formas de acionamento, válvulas de fluxo, válvulas de bloqueio, válvulas puramente hidráulicas e eletroválvulas, válvulas cartuchos e germinadas.
+%\\
+& Circuitos Hidráulicos e/ou Pneumáticos (práticas): circuitos puramente - pneumáticos e/ou hidráulicos, circuitos eletropneumáticos e/ou eletrohidráulicos. %, nos métodos: intuitivos, cascata e passo-a-passo, pneutrônica e hidrautrônica, funções lógicas, álgebra booleana e Mapas de Veitch-Karnaugh na simplificação de circuitos.
+ }
+
+\def\PUDmetodo{Aulas expositórias que podem ser teóricas e/ou práticas, onde as práticas no laboratório serão marcadas no decorrer da disciplina.}
+
+\def\PUDavalia{A avaliação será feita com aplicação de provas teóricas e/ou práticas, além da possibilidade de inclusão de trabalhos e seminários no decorrer da disciplina.}
+
+\def\PUDbibbasica{ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24437}{Fialho}, A. B.  Automação Pneumática: Projetos, Dimensionamento e Análise de Circuitos.  6º ed.  São Paulo, SP: Érica, 2010.  324p.  ISBN: 9788571949614. 
+\\ 
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=23700}{Bonacorso}, N. G.  Automação Eletropneumática.  10º ed.  São Paulo, SP: Érica, 2007.  137p.  ISBN: 9788571944251. 
+\\ 
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24200}{Fialho}, A. B.  Automação Hidráulica – Projetos, Dimensionamento e Análise de Circuitos.  5º ed.  São Paulo, SP: Érica, 2007.  284p.  ISBN: 9788571948921. }
+
+\def\PUDbibcomplementar{ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24290}{Leludak}, Jorge Assade.  Acionamentos Eletropneumáticos.  Volume Único.  Curitiba, PR: Base Editorial, 2010.  176p.  ISBN: 9788579055713. 
+\\ 
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24011}{Sterwart}, Harry L.  Pneumática e Hidráulica.  3º ed.  ECuritiba, PR: Hemus, 1981.  481p.  ISBN: 8528901084. 
+\\ 
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=23818}{Azevedo Neto}, José Martiniano.  Manual de Hidráulica.  8º ed.  Volume único.  São Paulo, SP: Blucher, 1998.  669p.  ISBN: 8521202776.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=55575}{Rollins}, John P.  Manual de Ar Comprimido e Gases.  E-book.  Pearson.  906p.  ISBN: 9788587918734.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24382}{Santos}, Valdir Aparecido dos.  Manual prático da manutenção industrial.  2º ed.  São Paulo, SP: Ícone, 2007.  301p.  ISBN: 9788527409261. }
+
+\def\PUDautor{Samuel Vieira Dias}
+
+\def\PUDdata{2013-05-21}
+
+\def\PUDrevisao{2}
+
+\def\PUDrevisor{Samuel Vieira Dias}
+
+\def\PUDdatarevisao{2019-05-15}
+
+\PUDcorpo

@@ -1,0 +1,108 @@
+
+\def\PUDcodigo{EME132}
+
+\if\COMPILAR0
+    \def\PUDcodacad{04507.61}
+\else
+    \def\PUDcodacad{04506.61}
+\fi
+
+\def\PUDdisciplina{Inteligência Computacional Aplicada}
+
+\def\PUDsemestre{Opt}
+
+\def\PUDhoras{80}
+
+%NOVOS ---------------------------------------------------
+\def\PUDhorasTeoria{64}
+\def\PUDhorasPratica{16}
+
+\if\COMPILAR0
+    \def\PUDinterECA{ 
+    \hyperref[PUD:ECA233]{Controle I (04507.31)}
+    
+    \hyperref[PUD:ECA202]{Controle II (04507.40)}
+    
+    \hyperref[PUD:ECA218]{Identificação de Sistemas (04507.56)}
+    }
+\else
+    \def\PUDinterECA{ \hyperref[PUD:ECA209]{Linguagem de Programação (04506.15)} }
+\fi
+
+\def\PUDatuaisECA{- Controle Fuzzy 
+
+- Controle Neuro-Fuzzy.}
+
+\def\PUDrecursos{Projetor multimídia; Quadro branco e pincel.}
+
+%----------------------------------------------------------
+
+\def\PUDcreditos{4}
+
+\def\PUDprerequisito{ \hyperref[PUD:ECA209]{ECA209} }
+
+\if\COMPILAR0
+    \def\PUDpreacad{\hyperref[PUD:ECA209]{Linguagem de Programação (04507.14)}}
+\else
+    \def\PUDpreacad{\hyperref[PUD:ECA209]{Linguagem de Programação (04506.15)}}
+\fi
+ 
+
+\def\PUDobjetivos{Conhecer e empregar metodologias de sistemas fuzzy, reconhecimento de padrões, redes neurais artificias e algoritmos genéticos na resolução de problemas de engenharia.
+%Conhecer as grandezas elétricas envolvidas em um circuito de corrente alternada; Calcular correntes e tensões elétricas em dispositivos passivos sob corrente alternada; Analisar o comportamento das correntes e tensões utilizando fasores; Determinar o comportamento de circuitos passivos submetidos a tensões de freqüência não nula
+}
+
+\def\PUDementa{Sistemas Fuzzy; Controladores Fuzzy;  Introdução a Reconhecimento de Padrões; Redes Neurais Artificiais; Introdução a Algoritmos Genéticos; Aplicações.
+%Introdução à Aprendizagem de Máquinas; Redes Neurais Artificiais; Lógica Fuzzy; Aplicações.
+}
+
+\def\PUDconteudo{ & Sistemas Fuzzy: introdução à lógica fuzzy, conjuntos fuzzy, sistemas de inferência fuzzy, controle fuzzy, exemplos.
+%Introdução à Aprendizagem de Máquinas: O problema de aprendizagem; O modelo linear; Erro e ruído; Treinamento x teste; Teoria de generalização;	Dimensão VC; Limiar bias-variância; Overfitting; Regularização; Validação.
+\\
+ & Introdução a Reconhecimento de Padrões: inteligência e reconhecimento de padrões (RP), conceito intuitivo de RP, definição formal, representação de atributos, distância entre vetores, método do vizinho mais próximo, exemplos. 
+ %Redes Neurais Artificiais: Neurônio biológico; Neurônio artificial; Modelo de McCulloch Pitts; Perceptron Simples;	Adaline; Funções de ativação sigmoides;	Madaline; Rede Perceptron Multicamadas (MLP);	Rede RBF e funções de base radiais. K-médias para redes RBF; Máquinas de Aprendizado Extremo (ELM).
+\\
+ & Redes Neurais Artificiais: neurônio biológico, neurônio de McCulloch-Pits (MP), portas lógicas, rede perceptron simples, ADALINE, rede perceptron multicamadas (MLP), redes de funções de base radial (RBF), máquina de aprendizado extremo (ELM), exemplos. 
+ %Lógica Fuzzy: Lógica Nebulosa; Conjuntos e operações com conjuntos nebulosos; Funções de pertinência; Mecanismos de inferência: Mamdani e Sugeno.
+\\
+ & Aplicações: aplicações de sistemas fuzzy e redes neurais artificiais em problemas de controle, classificação de padrões, regressão e identificação de sistemas.
+ %Aplicações: Classificação de padrões; Aproximação de funções/regressão/interpolação;	Agrupamento e quantização vetorial; Controle e identificação de sistemas; Otimização.
+ \\
+ & Introdução aos Algoritmos Genéticos: conceito de algortimos genéticos (AG), algoritmo, exemplos de aplicação.
+}
+
+\def\PUDmetodo{Aulas teóricas expositivas com auxílio de recursos audio-visuais e aulas práticas com simulações computacionais. 
+%Aulas expositórias que podem ser teóricas e/ou práticas, onde as práticas no laboratório serão marcadas no decorrer da disciplina.
+}
+
+\def\PUDavalia{As avaliações de conhecimento poderão ser através de provas escritas teóricas, como também através de trabalhos/projetos a serem apresentados na forma de relatórios e/ou seminários.
+%A avaliação será feita com aplicação de provas teóricas e/ou práticas, além da possibilidade de inclusão de trabalhos e seminários no decorrer da disciplina.
+}
+
+\def\PUDbibbasica{ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24574}{Braga}, A. P. Redes Neurais Artificiais: Teoria e Aplicações.  2ª ed.  Rio de Janeiro, RJ: LTC, 2012.  226p.  ISBN: 9788521615644.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24226}{Simoes}, M. G.; Shaw, I. S. Controle e Modelagem Fuzzy.  2ª ed.  São Paulo, SP: Blucher: FAPESP, 2007.  ISBN: 9788521204169.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=65450}{Russel}, S.; Norvig, P.  Inteligência Artificial.  Rio de Janeiro, RJ: Elsevier, 2013.  988p.  ISBN: 9788535237016. }
+
+\def\PUDbibcomplementar{ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24467}{Coppin}, B.  Inteligência Artificial.  Rio de Janeiro, RJ: LTC, 2012. 636p.  ISBN: 9788521617297.
+\\
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24529}{Faceli}, K.; Lorena, A. C.; Gama, J.; Carvalho, A. C. P. L. F.  Inteligência Artificial Uma Abordagem de Aprendizado de Máquina.  Rio de Janeiro, RJ: LTC, 2012.  373p.  ISBN: 9788521618805.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=57312}{Luger}, G. F.  Inteligência Artificial.  E-book.  Pearson.  636p.  ISBN: 9788581435503.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=55991}{Bierman}, H. Scott; Fernandez, Luis.  Teoria dos Jogos.  E-book.  Pearson.  434p.  ISBN: 	9788576056966.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=40251}{Haykin}, Simon.  Neural networks and learning machines.  3º ed.  New Delhi: PHI Learning Private Limited, 2013.  906p.  ISBN: 9788120340008. }
+
+\def\PUDautor{José Daniel Alencar Santos}
+
+\def\PUDdata{2013-04-17}
+
+\def\PUDrevisao{3}
+
+\def\PUDrevisor{José Daniel Alencar Santos}
+
+\def\PUDdatarevisao{2019-05-15}
+
+\PUDcorpo

@@ -1,0 +1,47 @@
+\documentclass[article,11pt,oneside,a4paper,english,brazil,sumario=tradicional]{abntex2}		
+\input{lib/preambuloPPCIFCE} % Pacotes usados
+\input{lib/ComandosTags}
+
+%---------------------------------------------
+\begin{document}
+
+%---------------------------------------------------------------------	
+% 1.0    Elementos pré-textuais	
+%---------------------------------------------------------------------	
+\imprimirCapaECA
+\imprimirContraCapaECA
+\imprimirDadosInstituicao
+\imprimirDadosCurso
+\imprimirRevisoes
+
+%---------------------------------------------------------------------	
+% 2.0 Elementos textuais
+%---------------------------------------------------------------------
+\textual \aliaspagestyle{chapter}{simple} %uniformidade visual
+\pagestyle{fancy}
+\clearpage \normalsize   
+\clearpage \tableofcontents \clearpage
+%---------------------------------------------------------------------	
+\input{2-textuais/Apresentacao}  
+\input{2-textuais/ContextualizacaoInstituicao} 
+\input{2-textuais/Justificativa}  
+\input{2-textuais/FundamentacaoLegal}
+\input{2-textuais/Objetivos}
+\input{2-textuais/FormaIngresso}
+\input{2-textuais/AreasAtuação}
+\input{2-textuais/PerfilEgresso}
+\input{2-textuais/Metodologia}
+\input{2-textuais/EstruturaCurricular}
+\input{2-textuais/AproveitamentoValidacaoConhecimento}
+%\input{2-textuais/EstruturaCurricular}
+%---------------------------------------------------------------------	
+% 3.0 Elementos pós-textuais
+%---------------------------------------------------------------------
+\clearpage
+\section*{REFERÊNCIAS}
+%\bibliography{referencias}
+\include{3-pos-textuais/anexos.tex}
+%------------------------------------------------------------------------------
+%\include{3-pos-textuais/anexos}
+
+\end{document}

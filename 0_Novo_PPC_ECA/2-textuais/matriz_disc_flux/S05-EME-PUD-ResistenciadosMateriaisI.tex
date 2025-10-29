@@ -1,0 +1,106 @@
+
+\def\PUDcodigo{EME109}
+
+\if\COMPILAR0
+   \def\PUDcodacad{04507.27}
+   \def\PUDdisciplina{Resistência dos Materiais}
+\else
+   \def\PUDcodacad{04506.26}
+   \def\PUDdisciplina{Resistência dos Materiais I}
+\fi
+
+\def\PUDsemestre{S5}
+
+\def\PUDhoras{80}
+
+%NOVOS ---------------------------------------------------
+\def\PUDhorasTeoria{80}
+\def\PUDhorasPratica{0}
+
+\if\COMPILAR0
+   \def\PUDinterECA{ \hyperref[PUD:EME108]{Materiais I (04507.22)} }
+\else
+   \def\PUDinterECA{ \hyperref[PUD:EME108]{Materiais I (04506.20)} 
+   
+   \hyperref[PUD:EME111]{Resistência dos Materiais II (04506.28)}
+   
+   \hyperref[PUD:EME119]{Sistemas Mecânicos (04506.35)}}
+\fi
+
+\def\PUDatuaisECA{---}
+
+\def\PUDrecursos{Projetor multimídia; Quadro branco e pincel.}
+
+%----------------------------------------------------------
+
+\def\PUDcreditos{4}
+
+\def\PUDprerequisito{ \hyperref[PUD:EME108]{EME108} }
+
+\if\COMPILAR0
+   \def\PUDpreacad{ \hyperref[PUD:EME108]{Materiais I (04507.22)} }
+\else
+   \def\PUDpreacad{ \hyperref[PUD:EME108]{Materiais I (04506.20)} }
+\fi
+
+\def\PUDobjetivos{Entender o comportamento mecânico dos corpos deformáveis usando as ferramentas da resistência
+dos materiais;  Solucionar problemas estáticos, lineares, com material homogêneo;  Realizar operações básicas de análise de integridade estrutural e de projeto (dimensionamento básico) de componentes simples como barras e vigas sob comportamentos de tração, compressão, cisalhamento, flexão e torção.}
+
+\def\PUDementa{Tensão;  Deformação;  Propriedades Mecânicas;  Carga Axial;  Torção;  Flexão;  Cisalhamento Transversal.}
+
+\def\PUDconteudo{ & Tensão: Equilíbrio de um corpo indeformável, tensão normal média, tensão de cisalhamento média, tensão admissível. 
+\\ 
+ & Deformação: Conceito de deformação. 
+\\ 
+ & Propriedades Mecânicas: O ensaio de tração-compressão, diagrama tensão-deformação, lei de Hooke, Energia de deformação, coeficiente de poisson. 
+\\ 
+ & Carga Axial: Princípio de Saint Venant, deformação elástica, princípio da superposição, elementos estaticamente indeterminados, tensão térmica, concentração de tensão, deformação axial inelástica, tensão residual. 
+\\ 
+ & Torção: Deformação por torção, a fórmula da torção, transmissão de potência, ângulo de torção, torção inelástica. 
+\\ 
+ & Flexão: Diagramas de esforço cortante e momento fletor, método gráfico, a fórmula da flexão, flexão assimétrica, vigas compostas, vigas curvas, flexão inelástica. 
+\\ 
+ & Cisalhamento Transversal: cisalhamento em elementos retos, a fórmula do cisaslhamento, tensões cisalhantes em vigas, fluxo de cisalhamento em estruturas, centro de cisalhamento para seções transversais abertas. }
+
+\def\PUDmetodo{Aulas expositórias que podem ser teóricas e/ou práticas, onde as práticas no laboratório serão marcadas no decorrer da disciplina.}
+
+\def\PUDavalia{A avaliação será feita com aplicação de provas teóricas e/ou práticas, além da possibilidade de inclusão de trabalhos e seminários no decorrer da disciplina.}
+
+\def\PUDbibbasica{ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24229}{Hibbeler}, R. C.  Resistência dos Materiais.  5ª ed.  São Paulo, SP: Prentice Hall, 2004.  670p.  ISBN: 9788587918673. 
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24321}{Beer}, Ferdinand P.  Resistência dos materiais.  3º ed.  São Paulo, SP: Pearson Makron Books, 2008.  1255p.  ISBN: 9788534603447.
+\\
+%& \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=42347}{Shackelford}, James F.  Ciências dos materiais.  6ª ed.  São Paulo, SP: Pearson, 2012.  556p.  ISBN: 9788576051602. 
+%& JOHNSTON JR. , E.  R.;  BEER, F.  P.;  Resistência dos Materiais.  3ª edição.  São Paulo.  Editora MAKRON BOOKS. 1996.  1256p.  ISBN 9788534603447.
+%\\ 
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=61931}{Johnston} Jr., E. R.;  Beer, F. P.;  Mecânica dos Materiais.  7ª ed.  Porto Alegre, RS: AMGH, 2015.  838p.  ISBN: 9788580554984.
+ }
+
+\def\PUDbibcomplementar{ & \href{biblioteca.ifce.edu.br/index.asp?codigo_sophia=59395}{Pereira}, Celso Pinto Morais. Mecânica dos Materiais Avançada - 1ª edição. E-book: Interciência. 434 p. ISBN 9788571933347.
+\\
+& \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24421}{Callister} Jr., W. D.;  Rethwisch, D. G.  Ciência e Engenharia de Materiais - Uma Introdução.  8ª ed.  Rio de Janeiro, RJ: LTC, 2012.  817p.  ISBN: 9788521621249.
+%&  BEER, F.  P.;  DEWOLF, J.  T.;  Resistência dos Materiais.  4ª edição.  São Paulo.  Editora  MCGRAW HILL - ARTMED.  2006.  774p.  ISBN 9788586804830.  
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=44596}{Garcia}, Amauri.  Ensaios dos materiais.  2º ed.  Rio de Janeiro, RJ: LTC, 2012.  365p.  ISBN: 9788521620679.
+\\ 
+& \href{biblioteca.ifce.edu.br/index.asp?codigo_sophia=47655}{Nash}, William A. Resistência dos materiais. Tradução de Giorgio Eugenio Oscare Giacaglia. 2. ed. São Paulo: McGraw-Hill, 1982. 521 p.
+\\
+ & \href{biblioteca.ifce.edu.br/index.asp?codigo_sophia=40282}{Norton}, Robert L. Projeto de máquinas: uma abordagem integrada. 4. ed. Porto Alegre: Bookman, 2013. 1028 p. ISBN 9788582600221.
+ %\\
+ %&  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=23963}{Santos}, Sandro Cardoso.  Aspectos tribológicos da usinagem dos materiais.  São Paulo, SP: Artliber, 2007.  246p.  ISBN: 9788588098381.
+%\\ 
+ %&  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=23938}{Gentil}, Vicente.  Corrosão. 5ª ed.  Rio de Janeiro, RJ: LTC, 2007.  353p.  ISBN: 9788521615569. 
+ }
+ %&  SILVA, L.  F.  M.;  GOMES, J.  F.  S.  Introdução à Resistência dos Materiais. 1ª edição, Portugal.  Editora Publindustria.  2010.  308p  ISBN 9789728953553.
+
+\def\PUDautor{Venceslau Xavier de Lima Filho}
+
+\def\PUDdata{2013-06-16}
+
+\def\PUDrevisao{2}
+
+\def\PUDrevisor{Venceslau Xavier de Lima Filho}
+
+\def\PUDdatarevisao{2019-05-15}
+
+\PUDcorpo

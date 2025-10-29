@@ -1,0 +1,92 @@
+
+\def\PUDcodigo{ECA204}
+
+\if\COMPILAR0
+   \def\PUDcodacad{04507.54}
+\else
+   \def\PUDcodacad{04506.58}
+\fi
+
+\def\PUDdisciplina{Processamento Digital de Imagens}
+
+\def\PUDsemestre{Opt}
+
+\def\PUDhoras{80}
+
+%NOVOS ---------------------------------------------------
+\def\PUDhorasTeoria{80}
+\def\PUDhorasPratica{0}
+
+\def\PUDinterECA{---}
+
+\def\PUDatuaisECA{---}
+
+\def\PUDrecursos{Projetor multimídia; Quadro branco e pincel.}
+
+%----------------------------------------------------------
+
+\def\PUDcreditos{4}
+
+\def\PUDprerequisito{ \hyperref[PUD:ECA209]{ECA209} }
+
+\if\COMPILAR0
+    \def\PUDpreacad{\hyperref[PUD:ECA209]{Linguagem de Programação (04507.14)}}
+\else
+    \def\PUDpreacad{\hyperref[PUD:ECA209]{Linguagem de Programação (04506.15)}}
+\fi
+
+
+\def\PUDobjetivos{Compreender aspectos teóricos e práticos relativos à área de processamento de imagens.  Aplicar técnicas para aquisição, transformação e análise de imagens por meio de computador.}
+
+\def\PUDementa{Fundamentos de Processamento Digital de Imagens;  Captação de imagens;  Representação e Tratamento de imagens;  Amostragem de sinais;  Transformadas aplicadas ao processamento digital de sinais;  Desenvolvimento de aplicações em software específico.}
+
+\def\PUDconteudo{ & Introdução. Representação de imagens digitais. Elementos de um sistema de processamento de imagens. Áreas de aplicações. 
+\\ 
+ & Fundamentos de Imagens Digitais. Formação de imagens. Amostragem e quantização. Resolução espacial e profundidade da imagem. Relacionamentos básicos entre pixels (vizinhança, conectividade, adjacência, caminho, medidas de distância, componentes conexos). Ruído em imagens. 
+\\ 
+ & Técnicas de Realce de Imagens. Qualidade da imagem. Transformação da escala de cinza. Histograma (equalização de histograma, filtragem no domínio espacial, filtragem no domínio de freqüência). 
+\\ 
+ & Segmentação de Imagens. Detecção de descontinuidades. Detecção de bordas. Limiarização (global e Local). Segmentação orientada a regiões.  
+\\ 
+ & Representação e Descrição. Esquemas de representação (código da cadeia, aproximações poligonais, assinaturas, esqueleto de uma região). Descritores (descritores básicos, descritores de Fourier, momentos, descritores regionais, textura). Morfologia Matemática. 
+\\ 
+ & Compressão de Imagens. 
+\\ 
+ & Classificação de Imagens. Elementos de análise de imagens. Padrões e classes de padrões. Métodos de decisão (casamento, classificadores estatísticos, redes neurais, lógica nebulosa). }
+
+\def\PUDmetodo{Aulas expositórias que podem ser teóricas e/ou práticas, onde as práticas no laboratório serão marcadas no decorrer da disciplina.}
+
+\def\PUDavalia{A avaliação será feita com aplicação de provas teóricas e/ou práticas, além da possibilidade de inclusão de trabalhos e seminários no decorrer da disciplina.}
+
+\def\PUDbibbasica{ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24515}{Gonzalez}, Rafael C.  Processamento Digital de Imagens.  3º ed.  Pearson Prentice Hall, 2010.  624p.  ISBN: 9788576054016.
+\\ 
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=40067}{Pedrini}, Hélio.  Análise de imagens digitais: princípios, algoritmos e aplicações.  São Paulo, SP: Thomson Learning, 2008.  508p.  ISBN: 9788522105953.
+\\ 
+ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=40232}{Oppenheim}, Alan V.  Processamento em tempo discreto de sinais.  3º ed.  São Paulo - SP.  Pearson Education do Brasil, 2012.  665p.  ISBN: 9788581431024. }
+
+\def\PUDbibcomplementar{ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=55634}{Kelby}, Scott.  Photoshop CS: para fotógrafos digitais.  E-book. Pearson.  400p. ISBN: 9788534615389.
+\\
+&  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=58749}{Pinto}, Ibraim Masciarelli Francisco.  Atlas de Diagnóstico por Imagem em Cardiologia.  E-book.  540p.  ISBN: 9788520439395.
+%&   Gonzalez, Rafael C.  Processamento Digital de Imagens.  3º ed.  Pearson Prentice Hall, 2010.  644p.  E-book. ISBN: 9788576054016.
+\\ 
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=58064}{Funari}, Marcelo B. de G.;  Nogueira, Solange Amorim;  Silva, Elaine Ferreira da;  Guerra, Elaine Gonçalves.  Princípios Básicos de Diagnóstico por Imagem - Série Manuais de Especialização do Einstein.  E-book.  Manole.  288p.  ISBN: 9788520434659.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=55564}{Kelby}, Scott.  Adobe Photoshop CS3: para fotógrafos digitais.  E-book.  Pearson.  496p.  ISBN: 9788576051473.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=56701}{Heuck}, Andreas; Steinborn, Marc; Rohen, Johannes W.; Lutjen-Drecoll, Elke.  Atlas de Ressonância Magnética.  E-book.  Manole.  400p.  ISBN: 9788520432426. }
+%   CASTLEMAN, K. R. , Digital Image Processing.  2a.  ed.  Prentice Hall, 1995.  ISBN: 9780132114677.
+ %  &  MARQUES FILHO, Ogê;  VIEIRA NETO, Hugo.  Processamento Digital de Imagens.  Brasport, 1999.  310p.  ISBN: 9788574520094.
+%\\ 
+%&   FELGUEIRAS, Carlos;  GARROT, João.  Introdução ao Processamento Digital de Imagem.  FCA, 2008.  138 p.  ISBN: 9789727222827.
+
+\def\PUDautor{Geraldo Luis Bezerra Ramalho}
+
+\def\PUDdata{2013-04-17}
+
+\def\PUDrevisao{2}
+
+\def\PUDrevisor{Samuel Vieira Dias}
+
+\def\PUDdatarevisao{2019-05-15}
+
+\PUDcorpo

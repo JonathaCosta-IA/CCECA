@@ -1,0 +1,113 @@
+
+\def\PUDcodigo{EME123}
+
+\if\COMPILAR0
+   \def\PUDcodacad{04507.46}
+\else
+   \def\PUDcodacad{04506.42}
+\fi
+
+\def\PUDdisciplina{Manufatura Auxiliada por Computador}
+
+\def\PUDsemestre{S9}
+
+\def\PUDhoras{80}
+
+%NOVOS ---------------------------------------------------
+\def\PUDhorasTeoria{40}
+\def\PUDhorasPratica{40}
+
+\if\COMPILAR0
+   \def\PUDinterECA{\hyperref[PUD:ACE004]{Inglês Técnico (04507.3)} 
+   
+   \hyperref[PUD:EME105]{Desenho Técnico (04507.6)} 
+   
+   \hyperref[PUD:EME106]{Desenho Auxiliado por Computador (04507.11)}
+   
+   \hyperref[PUD:ECA201]{Manufatura Integrada por Computador (04507.52)}
+}
+\else
+   \def\PUDinterECA{\hyperref[PUD:ACE004]{Inglês Técnico (04507.3)} 
+   
+   \hyperref[PUD:EME105]{Desenho Técnico (04506.6)} 
+   
+   \hyperref[PUD:EME106]{Desenho Auxiliado por Computador (04506.10)}
+   
+   \hyperref[PUD:EME110]{Materiais II (04506.23)}
+   
+   \hyperref[PUD:EME117]{Processos de Fabricação II (04506.30)}
+   
+   \hyperref[PUD:ECA201]{Manufatura Integrada por Computador (04506.58)}
+   }
+\fi
+
+\def\PUDatuaisECA{---}
+
+\def\PUDrecursos{Projetor multimídia; Quadro branco e pincel; Aulas em laboratório.}
+
+%----------------------------------------------------------
+
+\def\PUDcreditos{4}
+
+\def\PUDprerequisito{ \hyperref[PUD:EME105]{EME105}  \hyperref[PUD:EME106]{EME106} }
+
+\if\COMPILAR0
+   \def\PUDpreacad{ \hyperref[PUD:EME106]{Desenho Auxiliado por Computador (04507.11)} }
+\else
+   \def\PUDpreacad{ \hyperref[PUD:EME106]{Desenho Auxiliado por Computador (04506.10)} }
+\fi
+
+\def\PUDobjetivos{Conhecer as máquinas com Comando Numérico Computadorizado.  Conhecer a linguagem de máquinas NC.  Conhecer um sistema CAD/CAM: suas vantagens e aplicações.  Identificar uma célula de manufatura flexível.  Reconhecer um sistema integrado de manufatura por computador, suas vantagens e suas desvantagens.}
+
+\def\PUDementa{Sistema CAD/CAM;  Descrição do sistema CAD/CAM;  Software de CAD/CAM - MasterCam;  Comandos para geração de primitivas geométricas;  Comandos para a edição de um desenho;  Projetar através do CAD;  Desenho de ferramentas;  Desenho da peça a ser usinada;  Programação NC;  Gerar e transmitir o programa NC para a máquina;  Usinagem;  
+%Definição e histórico do CIM;  Célula de manufatura flexível (FMS);  Componentes CIM, integração de dados e operações;  Gerenciamento da informação dos componentes CIM;  Procedimentos e gerenciamento de projeto para desenvolver uma estratégia CIM;  Definição das cadeias de processo CIM;  Software de aplicações (ERP, MES);  Casos CIM.
+}
+
+\def\PUDconteudo{ & Introdução ao CNC.  O torno por Comando Numérico Computadorizado. O centro de usinagem vertical por Comando Numérico Computadorizado. Programas aplicados a torno CNC e fresadora CNC. Análise de parametrização para funcionamento do torno CNC. Operações fundamentais na usinagem de peças no torno CNC. 
+\\ 
+ & Sistema CAD/CAM. Descrição do sistema CAD/CAM. Software de CAD/CAM. 
+\\ 
+ & Programação CNC. Comandos para geração de primitivas geométricas.  Comandos para a edição de um desenho. Geração de programa NC. Redes de dados para o torno CNC.  
+\\ 
+ & Elaboração de projetos de usinagem CNC. }
+
+\def\PUDmetodo{Aulas expositórias que podem ser teóricas e/ou práticas, onde as práticas no laboratório serão marcadas no decorrer da disciplina.}
+
+\def\PUDavalia{A avaliação será feita com aplicação de provas teóricas e/ou práticas, além da possibilidade de inclusão de trabalhos e seminários no decorrer da disciplina.}
+
+\def\PUDbibbasica{ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=62510}{Souza}, A. F.; Ulbrich, C. B.  Engenharia integrada por computador e sistemas CAD/CAM/CNC: princípios e aplicações.  2º ed.  São Paulo: ARTLIBER, 2013.  358 p.  ISBN: 9788588098909.
+%\\ 
+ %&  IFAO - INFORMATIONSSYSTEME GMBH.  Comando numérico CNC: técnica operacional: curso básico.  Vol.  2.  São Paulo (SP): EPU, 1985.  176 p.  ISBN 9788512180304
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=62265}{Fitzpatrick}, M.  Introdução à usinagem com CNC: comando numérico computadorizado.  1º  ed.  	Porto Alegre, RS: AMGH, 2013.  365 p.  ISBN: 9788580552515.
+%\\ 
+ %&  TRAUBOMATI.   Comando Numérico Computadorizado.  1a.  ed.  Vol.  1.  São Paulo: EPU.  184 p.  ISBN 9788512180106
+%\\ 
+ %&  TRAUBOMATI.   Comando Numérico Computadorizado.  1a.  ed.  Vol.  2.  São Paulo: EPU.  1985, 256 p.  ISBN 9788512180304
+%\\ 
+ %&  RELVAS, C.  A.  M..  Controlo Numérico Computadorizado: Conceitos Fundamentais.  3a.  ed.  São Paulo: Pubindustria.  2012.  276 p.  ISBN 9789728953980. }
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=62912}{Groover}, Mikell P.  Automação Industrial e Sistemas de Manufatura.  3º ed. São Paulo, SP: Pearson Prentice Hall, 2015.  581 p.  ISBN: 9788576058717.  }
+
+\def\PUDbibcomplementar{ & \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=63248}{Groover}, Mikell P.  Introdução aos processos de fabricação.  Rio de Janeiro, RJ: LTC, 2014.  737p.  ISBN: 9788521625193.
+%&  BLACK, J.  T.  O Projeto da fábrica com futuro.  Porto Alegre (RS): Bookman, 2001.  288 p.  ISBN 9788573073492
+\\
+&  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=65223}{Bateman}, R. E.; Bowden, R. O.  Simulação de Sistemas - Aprimorando Processos de Logística, Serviços e Manufatura.  Rio de Janeiro, RJ: Elsevier, 2013.  161 p.  ISBN: 9788535271621.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=24286}{Ferraresi}, Dino.  Fundamentos da usinagem dos metais.  São Paulo, SP : Edgard Blücher, 2009. 751p.  ISBN: 9788521202578. 
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=23963}{Santos}, Sandro Cardoso.  Aspectos tribológicos da usinagem dos materiais.  São Paulo, SP: Artliber, 2007.  246p.  ISBN: 9788588098381.
+\\
+ &  \href{www.biblioteca.ifce.edu.br/index.asp?codigo_sophia=65446}{Cormen}, Thomas H. et al.  Algoritmos: teoria e prática.  Rio de Janeiro, RJ: Elsevier, 2012.  926p.  ISBN: 9788535236996. } 
+
+\def\PUDautor{Geraldo Luis Bezerra Ramalho}
+
+\def\PUDdata{2013-06-17}
+
+\def\PUDrevisao{2}
+
+\def\PUDrevisor{José Ciro dos Santos}
+
+\def\PUDdatarevisao{2019-05-15}
+
+\PUDcorpo
