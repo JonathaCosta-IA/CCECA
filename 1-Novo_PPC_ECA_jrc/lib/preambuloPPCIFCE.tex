@@ -1,0 +1,61 @@
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[T3,T1]{fontenc}
+\usepackage[noenc]{tipa}
+\usepackage{tipx}
+%\usepackage[geometry,weather,misc,clock]{ifsym}
+\usepackage{pifont}
+\usepackage{eurosym}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amssymb,amsfonts,textcomp}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{hhline}
+%\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage{xspace}
+\usepackage{enumitem}
+\usepackage{changepage} % para ajustar recuos
+
+\usepackage[space]{grffile} % permite espaços no nome de arquivo
+\usepackage{todonotes}
+\usepackage{pdfpages}% permite inserir páginas PDF
+\usepackage{tocloft}
+\usepackage{afterpage}
+\usepackage[alf,abnt-repeated-author-omit=yes,abnt-etal-list=0]{abntex2cite}
+
+\usepackage{caption}
+\addto\captionsportuguese{\renewcommand{\tablename}{Tabela}}
+\captionsetup{width=1.2\linewidth,textfont={bf}}
+
+%%%%%%%%
+\makeatletter
+\newcommand\arraybslash{\let\\\@arraycr}
+\makeatother
+\setlength\tabcolsep{1mm}
+\renewcommand\arraystretch{1.3}
+\def\web#1{\href{#1}{#1}}
+
+
+\input{lib/PPC-ECAConfig}
+\def\PUDcurso{\NOMEENG}
+
+%*** GRAPHICS RELATED PACKAGES ***
+\graphicspath{{figuras/}} 
+\DeclareGraphicsExtensions{.eps,.png,.jpg,.bmp}
+
+\pdfinfo{
+	/Author (Eixo da Indústria, IFCE Campus Maracanaú)
+	/Title (Projeto Pedagógico do Curso de Engenharia de Controle e Automação)
+	/Creator (pdfLaTeX)
+	/CreationDate (D:20130701100000)
+	/Subject (versão jul/2013)
+	/Keywords (PUD)
+	/ModDate (D:\pdfdate)
+}
+
+%DEFINIR MARGENS DO DOCUMENTO
+\geometry{a4paper,left=3cm,right=2cm,top=3cm,bottom=2cm} 
+
+

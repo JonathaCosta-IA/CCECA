@@ -1,0 +1,235 @@
+%
+% v2 Geraldo Ramalho abr/2013
+% v3 Francisco Frederico Matos abr/2017
+% v4 Jonatha Rodrigues da Costa nov/2025
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{ulem}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+%\usepackage[top=1in, bottom=2.5in, left=0.9in, right=0.9in]{geometry}
+\usepackage[a4paper]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkbordercolor=white,
+	linkcolor=blue,    % altera o sumário
+	citecolor=blue!80,
+	urlcolor=blue,
+	pdfborderstyle={/S/U/W 1}}
+
+\usepackage{datetime}
+
+\pdfinfo{
+   /Author (Eixo da Indústria, IFCE Maracanaú)
+   /Title (Cursos de Engenharia)
+   /Creator (pdfLaTeX)
+   /CreationDate (D:20130511103300)
+   /Subject (PUD dos cursos de Engenharia e relatórios de pendências)
+   /Keywords (image processing; structural analysis; mathematical morphology; cooccurrence statistics)
+   /ModDate (D:\pdfdate)
+}
+
+\newcounter{rowno}
+\setcounter{rowno}{0}
+
+\def\cinza{gray!50}
+
+%AMBIENTE CONTEUDO
+\newenvironment{conteudo}% 
+{\begin{enumerate}[{\textbf{Unidade}}~1~-]
+}% 
+{% end code
+\end{enumerate}
+}
+%
+\def\PUDcorpo{
+%
+\pagestyle{fancy}
+\headheight = 100pt
+\headsep = 0pt
+\footskip = 33pt
+\renewcommand{\footrulewidth}{0.4pt}
+%! CABEÇALHO NOVO2
+\fancyhead[L]{} % limpa o lado esquerdo
+\fancyhead[R]{} % limpa o lado direito
+\fancyhead[C]{
+\setlength{\extrarowheight}{2pt}
+\begin{tabular}{p{6cm}l}
+\multirow{4}{*}{\includegraphics[height=2cm]{figuras/pud_logo_ifce.jpg}}&\scriptsize{MINISTÉRIO DA EDUCAÇÃO}\\
+&\scriptsize{SECRETARIA DE EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA}\\
+%&\\
+&\scriptsize{DIRETORIA DE ENSINO}\\
+&\scriptsize{EIXO TECNOLÓGICO DA INDÚSTRIA}
+%&\footnotesize{COORDENAÇÃO DO CURSO DE ENGENHARIA CONTROLE E AUTOMAÇÃO}
+\end{tabular}
+}
+%!RODAPÉ NOVO
+\fancyfoot[C,C]{
+\footnotesize{
+\begin{tabular}{|p{7.8cm}|p{7.76cm}|} \hline
+Elaboração: \PUDautor & \ifx\PUDrevisao\undefined
+\else
+Revisão: \PUDrevisao~ -- ~Data: \PUDdatarevisao
+\fi \\
+Data: \PUDdata & 
+\ifx\PUDrevisao\undefined
+\else
+Responsável: \PUDrevisor
+\fi
+\\ \hline
+\end{tabular}\\
+    Coordenadoria do Curso de Engenharia de Controle e Automação -- Fone: (85) 3878-6316 / 3878-6345\\
+}}
+%
+\renewcommand*\arraystretch{1.1}
+
+%!CURSO
+\begin{longtable}{|p{12.85cm}|p{2.5cm}|}
+%\hline 
+\cellcolor{\cinza}Curso\label{PUD:\PUDcodigo} & \cellcolor{\cinza}Nível \\ \hline
+\PUDcurso & Graduação \\ \hline%x
+\end{longtable}\vspace{-24pt}
+%!DISCIPLINA
+\begin{longtable}{|p{12.85cm}|p{2.5cm}|}
+%\hline 
+\cellcolor{\cinza}Disciplina & \cellcolor{\cinza}Semestre\\ \hline
+
+\hyperref[MATRIZ]{\PUDdisciplina~(\PUDcodacad)}&
+\ifx \PUDsemestre\undefined
+Optativa
+\else
+\PUDsemestre
+\fi\\\hline%x
+\end{longtable}\vspace{-24pt}
+%!CARGA HORARIA
+\begin{longtable}{|p{4.14cm}|p{4.14cm}|p{4.14cm}|p{2.5cm}|}
+%\hline 
+\cellcolor{\cinza}Carga Horária Total & \cellcolor{\cinza}Carga Horária Teórica & \cellcolor{\cinza}Carga Horária Prática & \cellcolor{\cinza}Créditos\\ \hline
+\PUDhoras~horas/aula&
+\ifx \PUDhorasTeoria\undefined
+\PUDhoras~horas/aula
+\else
+\PUDhorasTeoria~horas/aula
+\fi 
+&
+\ifx \PUDhorasPratica\undefined
+-
+\else
+\PUDhorasPratica~horas/aula
+\fi 
+&\PUDcreditos\\
+\end{longtable}\vspace{-24pt}
+
+\begin{longtable}{|p{15.56cm}|}
+\hline \cellcolor{\cinza}Pré-Requisitos \\ \hline
+\ifx \PUDpreacad\undefined
+---
+\else
+\PUDpreacad
+\fi\\\hline
+\end{longtable}\vspace{-24pt}
+%!EMENTA
+\begin{longtable}{|p{15.56cm}|}
+%\hline 
+\cellcolor{\cinza}Ementa\\ \hline
+\PUDementa\\\hline%x
+\end{longtable}\vspace{-24pt}
+
+%!OBJETIVOS
+\begin{longtable}{|p{15.56cm}|}
+%\hline 
+\cellcolor{\cinza}Objetivos\\ \hline
+\PUDobjetivos\\\hline%x
+\end{longtable}\vspace{-24pt}
+%!CONTEUDO
+\begin{longtable}{|p{15.56cm}|}
+%\hline 
+\cellcolor{\cinza}Programa\\ \hline
+\end{longtable}\vspace{-24pt}
+%
+\setcounter{rowno}{0}
+\begin{longtable}{|>{\stepcounter{rowno}\hfill Unidade \therowno~--~}p{2.4cm}p{12.96cm}|}%18cm}|}
+\PUDconteudo \\ \hline
+\end{longtable}\vspace{-24pt}
+%!METODOLOGIA DE ENSINO
+\begin{longtable}{|p{15.56cm}|}
+\cellcolor{\cinza}Metodologia de Ensino\\ \hline
+\PUDmetodo \\ \hline%x
+\end{longtable}\vspace{-24pt}
+
+%---------------------------------------------------
+%!COMPETÊNCIAS E HABILIDADES
+\begin{longtable}{|p{15.56cm}|}
+	\cellcolor{\cinza}Competências Gerais e Habilidades Desenvolvidas\\ \hline
+	\PUDhabilidades \\ \hline%x
+\end{longtable}\vspace{-24pt}
+%!ATITUDES E VALORES
+\begin{longtable}{|p{15.56cm}|}
+	\cellcolor{\cinza}Atitudes e Valores Desenvolvidos\\ \hline
+	\PUDatitudes \\ \hline%x
+\end{longtable}\vspace{-24pt}
+
+%---------------------------------------------------
+
+%!RECURSOS
+\begin{longtable}{|p{15.56cm}|}
+\cellcolor{\cinza}Recursos\\ \hline
+\PUDrecursos \\ \hline%x
+\end{longtable}\vspace{-24pt}
+%!AVALIAÇÃO
+\begin{longtable}{|p{15.56cm}|}
+\cellcolor{\cinza}Avaliação\\ \hline
+\PUDavalia \vspace{-12pt}
+\end{longtable}\vspace{-24pt}
+%!BIBLIOGRAFIA
+\setcounter{rowno}{0}
+\begin{longtable}{|p{15.56cm}|}
+\\
+\hline 
+\cellcolor{\cinza}Bibliografia\\ 
+\hline
+%\\
+\underline{Básica}\\
+\end{longtable}\vspace{-24pt}
+%
+\begin{longtable}{|>{\stepcounter{rowno}\therowno~--~}p{0.3cm}p{15.06cm}|}%28cm}|}
+\PUDbibbasica
+\end{longtable}\vspace{-24pt}
+%
+\begin{longtable}{|p{15.56cm}|}
+%\\
+\underline{Complementar}\\
+\end{longtable}\vspace{-24pt}
+%
+\setcounter{rowno}{0}
+\begin{longtable}{|>{\stepcounter{rowno}\therowno~--~}p{0.3cm}p{15.06cm}|}%28cm}|}
+\PUDbibcomplementar\\
+\hline
+\end{longtable}\vspace{-24pt}
+
+\begin{longtable}{|p{7.66cm}|p{7.66cm}|}
+\hline 
+\cellcolor{\cinza} Coordenador do Curso & 
+\cellcolor{\cinza} Setor Pedagógico \\
+\cellcolor{\cinza} & \cellcolor{\cinza} \\
+\cellcolor{\cinza}\rule{0.3\paperwidth}{0.4pt} & \cellcolor{\cinza}\rule{0.3\paperwidth}{0.4pt} \\ 
+\hline
+
+\end{longtable}\vspace{-24pt}
+
+\begin{longtable}{|p{15.56cm}|}
+\hline 
+\end{longtable}
+
+}%PUDcorpo
+
+
+
+
