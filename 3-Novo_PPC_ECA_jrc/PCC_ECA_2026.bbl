@@ -1,0 +1,70 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[CES/CNE-01/2021 2021]{cne21}
+\abntrefinfo{CES/CNE-01/2021}{CES/CNE-01/2021}{2021}
+{CES/CNE-01/2021. \emph{Resolução CNE/CES nº 1, de 26 de março de 2021.
+  Diretrizes Curriculares Nacionais para os Cursos de Engenharia}. 2021.
+  Diário Oficial da União, Brasília, 29 de março de 2021, Seção 1, p. 85.
+Resolução CNE/CES 1/2021.
+Dispon{\'\i}vel em:
+  \url{https://portal.mec.gov.br/index.php?option=com\_docman&view=download&alias=175301-rces001-21&category\_slug=marco-2021-pdf&Itemid=30192}.}
+
+\bibitem[CES/CNE-02/2019 2019]{cne19}
+\abntrefinfo{CES/CNE-02/2019}{CES/CNE-02/2019}{2019}
+{CES/CNE-02/2019. \emph{Diretrizes Curriculares Nacionais para os Cursos de
+  Engenharia. Parecer CES nº 2/2019}. Diário Oficial da União - DOU, 2019.
+Parecer CNE/CES nº 1/2019, homologado por Despacho do Ministro da Educação,
+  publicado no DOU de 23 de abril de 2019. Seção 1.
+Dispon{\'\i}vel em:
+  \url{https://portal.mec.gov.br/index.php?option=com\_docman&view=download&alias=112681-rces002-19&category\_slug=abril-2019-pdf&Itemid=30192}.}
+
+\bibitem[{CONSUP/IFCE-259/2025} 2025]{res259}
+\abntrefinfo{{CONSUP/IFCE-259/2025}}{{CONSUP/IFCE-259/2025}}{2025}
+{{CONSUP/IFCE-259/2025}. \emph{Resolução CONSUP/IFCE nº 259, de 08 de
+  janeiro de 2025: Aprova o Manual de Normalização de Projetos Pedagógicos
+  dos Cursos de Engenharia do IFCE}. Fortaleza: [s.n.], 2025. Boletim de
+  Serviços Eletrônico.
+Processo nº 23255.001698/2024-70. SEI nº 7086672. Aprova o Manual de
+  Normalização de Projetos Pedagógicos dos Cursos de Engenharia do IFCE.
+Dispon{\'\i}vel em:
+  \url{https://portal.ifce.edu.br/documents/839/Resolu\%C3\%A7\%C3\%A3o\_259.pdf}.}
+
+\bibitem[{IFCE/Guia de Curricularização das Atividades de Extensão}
+  2023]{GuiaCurricExt2023}
+\abntrefinfo{{IFCE/Guia de Curricularização das Atividades de
+  Extensão}}{{IFCE/Guia de Curricularização das Atividades de
+  Extensão}}{2023}
+{{IFCE/Guia de Curricularização das Atividades de Extensão}. \emph{Guia de
+  Curricularização das Atividades de Extensão nos Cursos Técnicos, de
+  Graduação e Pós-Graduação do IFCE}. Fortaleza, Brasil: [s.n.], 2023.
+3ª Edição.
+Dispon{\'\i}vel em:
+  \url{https://portal.ifce.edu.br/documents/3641/Guia\_da\_Curriculariza\%C3\%A7\%C3\%A3o\_-\_3\%C2\%AA\_Edi\%C3\%A7\%C3\%A3o.pdf}.}
+
+\bibitem[{Instituto Nacional de Estudos e Pesquisas Educacionais Anísio
+  Teixeira (Inep)} 2017]{InstrAval2017}
+\abntrefinfo{{Instituto Nacional de Estudos e Pesquisas Educacionais Anísio
+  Teixeira (Inep)}}{{Instituto Nacional de Estudos e Pesquisas Educacionais
+  Anísio Teixeira (Inep)}}{2017}
+{{Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira
+  (Inep)}. \emph{Instrumento de avaliação de cursos de graduação presencial
+  e a distância: reconhecimento / renovação de reconhecimento}.
+  Brasília-DF, Brasil: [s.n.], 2017.
+Publicação gratuita; reprodução permitida com citação da fonte.
+Dispon{\'\i}vel em:
+  \url{https://download.inep.gov.br/educacao\_superior/avaliacao\_cursos\_graduacao/instrumentos/2017/curso\_reconhecimento.pdf}.}
+
+\bibitem[{Ministério da Educação} 2024]{MEC_IFCE_2024}
+\abntrefinfo{{Ministério da Educação}}{{Ministério da Educação}}{2024}
+{{Ministério da Educação}. \emph{MEC assina autorização de projetos para 6
+  novos campi do IFCE}. 2024. Portal do Governo Federal.
+Acesso em: 07 nov. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/mec/pt-br/assuntos/noticias/2024/outubro/mec-assina-autorizacao-de-projetos-para-6-novos-campi-do-ifce}.}
+
+\end{thebibliography}
