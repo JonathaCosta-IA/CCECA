@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.2)  13 NOV 2025 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.2)  14 NOV 2025 15:18
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1135,58 +1135,107 @@ File: figuras/IFCE_vertical.png Graphic file (type png)
 <use figuras/IFCE_vertical.png>
 Package pdftex.def Info: figuras/IFCE_vertical.png  used on input line 6.
 (pdftex.def)             Requested size: 100.45505pt x 109.12741pt.
- [2
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--133
+
+ []
+
+[2
 
 
 
  <./figuras/IFCE_vertical.png>] [3
 
-]
-[4]) (./1-pre-textuais/DadosInstituicao.tex [5]
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 11
+]) (./1-pre-textuais/DadosInstituicao.tex
+[4]
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 10
 .
-
-(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-(./1-pre-textuais/DadosCurso.tex [6
+(./1-pre-textuais/DadosCurso.tex [5
 
 ]
-Overfull \hbox (0.8451pt too wide) in paragraph at lines 22--23
-[][][]\T1/cmr/m/n/10 https://portal.ifce.edu.br/cursos/maracanau-bacharelado-em
--engenharia-de-controle-e-automacao/[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|[][]\T1/cmr/m/n/9 https://portal.ifce.edu.br/cursos/maracanau-bacharelado-em
+-
  []
 
-) (./1-pre-textuais/Revisoes.tex [7
+
+Overfull \hbox (11.38101pt too wide) in paragraph at lines 9--57
+[][] 
+ []
+
+) (./1-pre-textuais/Revisoes.tex [6
 
 ]
-Underfull \hbox (badness 1810) in paragraph at lines 48--49
+Underfull \hbox (badness 1810) in paragraph at lines 49--49
 []|\T1/cmr/m/n/10 mudança do pré-requisito de Con-tro-la-do-res Ló-gi-cos Pro-g
 ra-má-veis
  []
 
-[8
+[7
 
-]) [9] (./PCC_ECA_2026.toc)
+]) [8] (./PCC_ECA_2026.toc)
 \tf@toc=\write5
 \openout5 = `PCC_ECA_2026.toc'.
 
- (./2-textuais/Apresentacao.tex [10
+ (./2-textuais/Apresentacao.tex [9
 
 ])
-(./2-textuais/ContextualizacaoInstituicao.tex [11
+(./2-textuais/ContextualizacaoInstituicao.tex [10
 
 ]
 Overfull \hbox (2.84213pt too wide) in paragraph at lines 13--14
@@ -1195,16 +1244,16 @@ riu à ins-ti-tui-ção o nome de Es-cola Téc-nica Fe-de-ral do Ce-ará, consolidan
 do-
  []
 
-) (./2-textuais/Justificativa.tex [12]) (./2-textuais/FundamentacaoLegal.tex
+) (./2-textuais/Justificativa.tex [11]) (./2-textuais/FundamentacaoLegal.tex
 Overfull \hbox (2.76129pt too wide) in paragraph at lines 19--20
 []\T1/cmr/m/n/10 Lei n\TS1/cmr/m/n/10 º \T1/cmr/m/n/10 5.194/66 ^^U Re-gula o e
 xer-cí-cio das pro-fis-sões de En-ge-nheiro, Ar-qui-teto e Engenheiro-Agrônomo,
 
  []
 
-[13]) (./2-textuais/Objetivos.tex [14] [15]) (./2-textuais/FormaIngresso.tex)
-(./2-textuais/AreasAtuaÃ§Ã£o.tex [16]) (./2-textuais/PerfilEgresso.tex)
-(./2-textuais/Competencias.tex [17] [18]
+[12]) (./2-textuais/Objetivos.tex [13] [14]) (./2-textuais/FormaIngresso.tex)
+(./2-textuais/AreasAtuaÃ§Ã£o.tex [15]) (./2-textuais/PerfilEgresso.tex)
+(./2-textuais/Competencias.tex [16] [17]
 Underfull \hbox (badness 4479) in paragraph at lines 48--48
 []|\T1/cmr/m/n/7 Aprender de forma autô-noma e li-
  []
@@ -1214,18 +1263,18 @@ Overfull \hbox (36.9884pt too wide) in paragraph at lines 15--53
  [][] 
  []
 
-[19
+[18
 
-]) (./PCC_ECA_2026.bbl) [20
+]) (./PCC_ECA_2026.bbl) [19
 
 ] (./3-pos-textuais/anexos.tex
-<anexos/ComprovanteImovel.pdf, id=288, page=1, 609.27625pt x 844.15375pt>
+<anexos/ComprovanteImovel.pdf, id=289, page=1, 609.27625pt x 844.15375pt>
 File: anexos/ComprovanteImovel.pdf Graphic file (type pdf)
 <use anexos/ComprovanteImovel.pdf, page 1>
 Package pdftex.def Info: anexos/ComprovanteImovel.pdf , page1 used on input lin
 e 11.
 (pdftex.def)             Requested size: 466.62242pt x 646.5226pt.
-<anexos/ComprovanteImovel.pdf, id=289, 609.27625pt x 844.15375pt>
+<anexos/ComprovanteImovel.pdf, id=290, 609.27625pt x 844.15375pt>
 File: anexos/ComprovanteImovel.pdf Graphic file (type pdf)
 <use anexos/ComprovanteImovel.pdf>
 Package pdftex.def Info: anexos/ComprovanteImovel.pdf  used on input line 12.
@@ -1234,7 +1283,7 @@ File: anexos/ComprovanteImovel.pdf Graphic file (type pdf)
 <use anexos/ComprovanteImovel.pdf>
 Package pdftex.def Info: anexos/ComprovanteImovel.pdf  used on input line 12.
 (pdftex.def)             Requested size: 609.27475pt x 844.15169pt.
-<anexos/ComprovanteImovel.pdf, id=292, page=2, 609.27625pt x 844.15375pt>
+<anexos/ComprovanteImovel.pdf, id=293, page=2, 609.27625pt x 844.15375pt>
 File: anexos/ComprovanteImovel.pdf Graphic file (type pdf)
 <use anexos/ComprovanteImovel.pdf, page 2>
 Package pdftex.def Info: anexos/ComprovanteImovel.pdf , page2 used on input lin
@@ -1250,7 +1299,7 @@ Overfull \hbox (11.37831pt too wide) in paragraph at lines 6--12
  [] 
  []
 
-[21
+[20
 
  <./anexos/ComprovanteImovel.pdf>]
 File: anexos/ComprovanteImovel.pdf Graphic file (type pdf)
@@ -1268,8 +1317,8 @@ File: anexos/ComprovanteImovel.pdf Graphic file (type pdf)
 Package pdftex.def Info: anexos/ComprovanteImovel.pdf , page2 used on input lin
 e 12.
 (pdftex.def)             Requested size: 517.88725pt x 717.53407pt.
- [22 <./anexos/ComprovanteImovel.pdf>]
-<anexos/ComprovanteImovel.pdf, id=302, page=3, 609.27625pt x 844.15375pt>
+ [21 <./anexos/ComprovanteImovel.pdf>]
+<anexos/ComprovanteImovel.pdf, id=303, page=3, 609.27625pt x 844.15375pt>
 File: anexos/ComprovanteImovel.pdf Graphic file (type pdf)
 <use anexos/ComprovanteImovel.pdf, page 3>
 Package pdftex.def Info: anexos/ComprovanteImovel.pdf , page3 used on input lin
@@ -1286,34 +1335,34 @@ Package pdftex.def Info: anexos/ComprovanteImovel.pdf , page3 used on input lin
 e 12.
 (pdftex.def)             Requested size: 517.88725pt x 717.53407pt.
 
-[23 <./anexos/ComprovanteImovel.pdf>]) (./3-pos-textuais/portarias.tex
+[22 <./anexos/ComprovanteImovel.pdf>]) (./3-pos-textuais/portarias.tex
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-<anexos/Portaria9140_NDE_ECA_25.pdf, id=307, page=1, 597.51233pt x 845.0471pt>
+<anexos/Portaria9140_NDE_ECA_25.pdf, id=308, page=1, 597.51233pt x 845.0471pt>
 File: anexos/Portaria9140_NDE_ECA_25.pdf Graphic file (type pdf)
 <use anexos/Portaria9140_NDE_ECA_25.pdf, page 1>
 Package pdftex.def Info: anexos/Portaria9140_NDE_ECA_25.pdf , page1 used on inp
 ut line 11.
 (pdftex.def)             Requested size: 447.24876pt x 632.53302pt.
-<anexos/Portaria9141_Colegiado_ECA_25.pdf, id=308, page=1, 597.51233pt x 845.04
+<anexos/Portaria9141_Colegiado_ECA_25.pdf, id=309, page=1, 597.51233pt x 845.04
 71pt>
 File: anexos/Portaria9141_Colegiado_ECA_25.pdf Graphic file (type pdf)
 <use anexos/Portaria9141_Colegiado_ECA_25.pdf, page 1>
 Package pdftex.def Info: anexos/Portaria9141_Colegiado_ECA_25.pdf , page1 used 
 on input line 23.
 (pdftex.def)             Requested size: 447.24876pt x 632.53302pt.
- [24 <./anexos/Portaria9140_NDE_ECA_25.pdf>]
-<anexos/Portaria23-27032013.pdf, id=346, page=1, 597.432pt x 844.95674pt>
+ [23 <./anexos/Portaria9140_NDE_ECA_25.pdf>]
+<anexos/Portaria23-27032013.pdf, id=347, page=1, 597.432pt x 844.95674pt>
 File: anexos/Portaria23-27032013.pdf Graphic file (type pdf)
 <use anexos/Portaria23-27032013.pdf, page 1>
 Package pdftex.def Info: anexos/Portaria23-27032013.pdf , page1 used on input l
 ine 36.
 (pdftex.def)             Requested size: 447.21599pt x 632.50406pt.
- [25 <./anexos/Portaria9141_Colegiado_ECA_25.pdf>]
+ [24 <./anexos/Portaria9141_Colegiado_ECA_25.pdf>]
 <anexos/Portaria42-22042013.pdf, id=384, page=1, 597.432pt x 844.95674pt>
 File: anexos/Portaria42-22042013.pdf Graphic file (type pdf)
 <use anexos/Portaria42-22042013.pdf, page 1>
@@ -1321,15 +1370,15 @@ Package pdftex.def Info: anexos/Portaria42-22042013.pdf , page1 used on input l
 ine 49.
 (pdftex.def)             Requested size: 447.21599pt x 632.50406pt.
 
-[26 <./anexos/Portaria23-27032013.pdf>]
-<anexos/Portaria-430-03052021.pdf, id=422, page=1, 614.295pt x 794.97pt>
+[25 <./anexos/Portaria23-27032013.pdf>]
+<anexos/Portaria-430-03052021.pdf, id=423, page=1, 614.295pt x 794.97pt>
 File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 <use anexos/Portaria-430-03052021.pdf, page 1>
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf , page1 used on input
  line 63.
 (pdftex.def)             Requested size: 455.24606pt x 589.14197pt.
- [27 <./anexos/Portaria42-22042013.pdf>]
-<anexos/Portaria-430-03052021.pdf, id=453, 614.295pt x 794.97pt>
+ [26 <./anexos/Portaria42-22042013.pdf>]
+<anexos/Portaria-430-03052021.pdf, id=454, 614.295pt x 794.97pt>
 File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 <use anexos/Portaria-430-03052021.pdf>
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf  used on input line 6
@@ -1340,7 +1389,7 @@ File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf  used on input line 6
 5.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<anexos/Portaria-430-03052021.pdf, id=456, page=2, 614.295pt x 794.97pt>
+<anexos/Portaria-430-03052021.pdf, id=457, page=2, 614.295pt x 794.97pt>
 File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 <use anexos/Portaria-430-03052021.pdf, page 2>
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf , page2 used on input
@@ -1351,7 +1400,7 @@ File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf , page2 used on input
  line 65.
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
-[28 <./anexos/Portaria-430-03052021.pdf>]
+[27 <./anexos/Portaria-430-03052021.pdf>]
 File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 <use anexos/Portaria-430-03052021.pdf, page 2>
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf , page2 used on input
@@ -1367,8 +1416,8 @@ File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf , page2 used on input
  line 65.
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
- [29 <./anexos/Portaria-430-03052021.pdf>]
-<anexos/Portaria-430-03052021.pdf, id=510, page=3, 614.295pt x 794.97pt>
+ [28 <./anexos/Portaria-430-03052021.pdf>]
+<anexos/Portaria-430-03052021.pdf, id=511, page=3, 614.295pt x 794.97pt>
 File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 <use anexos/Portaria-430-03052021.pdf, page 3>
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf , page3 used on input
@@ -1384,14 +1433,14 @@ File: anexos/Portaria-430-03052021.pdf Graphic file (type pdf)
 Package pdftex.def Info: anexos/Portaria-430-03052021.pdf , page3 used on input
  line 65.
 (pdftex.def)             Requested size: 522.15321pt x 675.72769pt.
- [30 <./anexos/Portaria-430-03052021.pdf>])
+ [29 <./anexos/Portaria-430-03052021.pdf>])
 (./3-pos-textuais/RegumentoOrganizacaoDidatica.tex
 Overfull \hbox (17.58487pt too wide) in paragraph at lines 4--5
 \T1/cmr/m/n/10 nico ori-gi-nal está dis-po-ní-vel para acesso em [][]https://po
 rtal.ifce.edu.br/documents/3261/ROD_atualizado.pdf[][]. 
  []
 
-[31
+[30
 
 ]
 Overfull \hbox (0.45392pt too wide) in paragraph at lines 199--200
@@ -1400,16 +1449,16 @@ ito às nor-mas dis-ci-pli-na-res e didático- pe-da-gó-gi-cas, in-clu-sive subme
 tendo-
  []
 
-[32]) [33] (./PCC_ECA_2026.aux (./1-pre-textuais/CapaECA.aux))
+[31]) [32] (./PCC_ECA_2026.aux (./1-pre-textuais/CapaECA.aux))
 Package rerunfilecheck Info: File `PCC_ECA_2026.out' has not changed.
 (rerunfilecheck)             Checksum: 58AD59B1E6A24A311522D1953ED2C9C1;4881.
  ) 
 Here is how much of TeX's memory you used:
- 30230 strings out of 476041
- 559697 string characters out of 5793174
- 1880388 words of memory out of 6000000
- 49929 multiletter control sequences out of 15000+600000
- 530455 words of font info for 68 fonts, out of 8000000 for 9000
+ 30259 strings out of 476041
+ 559997 string characters out of 5793174
+ 1889388 words of memory out of 6000000
+ 49946 multiletter control sequences out of 15000+600000
+ 535537 words of font info for 84 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  104i,18n,120p,1095b,939s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
@@ -1420,20 +1469,22 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/cm-super/sfbi1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/cm-super/sfbx0700.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-su
-per/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfb
-x1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/cm-super/sfsx1200.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/cm-super/sfti1000.pfb>
-Output written on PCC_ECA_2026.pdf (33 pages, 6488846 bytes).
+per/sfbx0900.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfb
+x1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/cm-super/sfsx0800.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/cm-super/sfsx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/cm-super/sfsx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-
+super/sfti0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/s
+fti1000.pfb>
+Output written on PCC_ECA_2026.pdf (32 pages, 6536949 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 86 named destinations out of 1000 (max. 500000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
+ 87 named destinations out of 1000 (max. 500000)
  279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
