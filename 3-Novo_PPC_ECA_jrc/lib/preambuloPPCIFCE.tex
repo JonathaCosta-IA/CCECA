@@ -1,54 +1,25 @@
-\usepackage[utf8]{inputenc}
-\usepackage[portuguese]{babel}
-\usepackage[T3,T1]{fontenc}
-\usepackage[noenc]{tipa}
-\usepackage{tipx}
-%\usepackage[geometry,weather,misc,clock]{ifsym}
-\usepackage{pifont}
-\usepackage{eurosym}
-\usepackage{amsmath}
-\usepackage{wasysym}
-\usepackage{amssymb,amsfonts,textcomp}
-\usepackage{array}
-\usepackage{supertabular}
-\usepackage{hhline}
-%\usepackage[pdftex]{graphicx}
-\usepackage{setspace}
-\usepackage{xspace}
 
-\usepackage{changepage} % para ajustar recuos
-
-\usepackage[space]{grffile} % permite espaços no nome de arquivo
-\usepackage{todonotes}
-\usepackage{pdfpages}% permite inserir páginas PDF
-\usepackage{tocloft}
-\usepackage{afterpage}
-\usepackage[alf,abnt-repeated-author-omit=yes,abnt-etal-list=0]{abntex2cite}
-
-%---------------------- Novos
-\usepackage{pdflscape}
-%\usepackage{array}
-%\usepackage{booktabs}
-
-\usepackage{indentfirst}
-\usepackage{enumitem}
-\usepackage{tikz}
-\usetikzlibrary{shapes.geometric, positioning, arrows.meta, calc}
-
-
-\usepackage{caption}
-\addto\captionsportuguese{\renewcommand{\tablename}{Tabela}}
-\captionsetup{width=1.2\linewidth,textfont={bf}}
-
+%--------------------------------------------------
 
 %%%%%%%%
+% Definições seguras para o preâmbulo .sty
 \makeatletter
-\newcommand\arraybslash{\let\\\@arraycr}
+% Se \arraybslash ainda não existir, define; se existir, redefine de forma segura.
+\providecommand{\arraybslash}{} % garante que existe
+\renewcommand{\arraybslash}{\let\\\@arraycr}
 \makeatother
-\setlength\tabcolsep{1mm}
-\renewcommand\arraystretch{1.3}
-\def\web#1{\href{#1}{#1}}
 
+\setlength{\tabcolsep}{1mm}
+\renewcommand{\arraystretch}{1.3}
+
+% Definir \web de forma robusta, com fallback caso \href não exista ainda.
+\providecommand{\web}[1]{%
+	\ifcsname href\endcsname
+	\href{#1}{#1}% se hyperref carregado, use href
+	\else
+	\texttt{#1}% fallback: mostra o URL em monoespaçado
+	\fi
+}
 
 \input{lib/PPC-ECAConfig}
 \def\PUDcurso{\NOMEENG}

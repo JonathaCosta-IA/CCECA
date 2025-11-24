@@ -1,30 +1,72 @@
-%
-% v2 Geraldo Ramalho abr/2013
-% v3 Francisco Frederico Matos abr/2017
-% v4 Jonatha Rodrigues da Costa nov/2025
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
-\usepackage{ulem}
-\usepackage{amsmath}
-\usepackage{multirow}
-\usepackage[table]{xcolor}
-\usepackage{longtable}
-%\usepackage[top=1in, bottom=2.5in, left=0.9in, right=0.9in]{geometry}
-\usepackage[a4paper]{geometry}
-\usepackage{fancyhdr}
-\usepackage{enumerate}
-\usepackage{hyperref}
+%------------------------------------------------------
+% Codificação e idioma
+\usepackage[utf8]{inputenc}   % codificação
+\usepackage[T1]{fontenc}      % acentuação
+\usepackage[portuguese]{babel} % idioma
+
+%------------------------------------------------------
+% Fonte, símbolos e matemática
+\usepackage{amsmath}          % equações
+\usepackage{amssymb,amsfonts} % símbolos
+\usepackage{textcomp}         % símbolos extras
+\usepackage{tipa}             % fonética
+\usepackage{tipx}             % fonética extra
+\usepackage{wasysym}          % símbolos gerais
+\usepackage{eurosym}          % euro
+
+%------------------------------------------------------
+% Estrutura, tabelas e layout
+\usepackage[a4paper]{geometry} % margens
+\usepackage{array}             % tabelas
+\usepackage{hhline}            % linhas tabela
+\usepackage{multirow}          % tabelas
+\usepackage{longtable}         % tabelas longas
+\usepackage{xcolor}[table]     % cores tabela
+\usepackage{colortbl}
+\usepackage{setspace}          % espaçamento
+\usepackage{indentfirst}       % indentação
+\usepackage{changepage}        % recuos
+\usepackage{enumitem}          % listas
+\usepackage{tocloft}           % sumário
+\usepackage{afterpage}         % controle página
+
+%------------------------------------------------------
+% Figuras, gráficos e PDF
+\usepackage{graphicx}          % figuras
+\usepackage{pdflscape}         % páginas paisagem
+\usepackage{pdfpages}          % inserir PDF
+\usepackage{tikz}              % diagramas
+\usetikzlibrary{shapes.geometric, positioning, arrows.meta, calc}
+
+%------------------------------------------------------
+% Hyperlinks e citações
+\usepackage{hyperref}          % links
 \hypersetup{
 	colorlinks=true,
 	linkbordercolor=white,
-	linkcolor=blue,    % altera o sumário
+	linkcolor=blue,
 	citecolor=blue!80,
 	urlcolor=blue,
-	pdfborderstyle={/S/U/W 1}}
+	pdfborderstyle={/S/U/W 1}
+}
 
-\usepackage{datetime}
+\usepackage[alf,abnt-repeated-author-omit=yes,abnt-etal-list=0]{abntex2cite} % ABNT
+
+%------------------------------------------------------
+% Outros utilitários
+\usepackage{ulem}              % sublinhado/riscos
+\usepackage{xspace}            % espaçamento auto
+\usepackage{pifont}            % dingbats
+\usepackage{fancyhdr}          % cabeçalho/rodapé
+\usepackage{datetime}          % datas
+\usepackage{todonotes}         % notas
+\usepackage{caption}           % legendas
+
+%------------------------------------------------------
+% Ajuste de "Tabela"
+%---------------------------------------------------------------------------------
+
 
 \pdfinfo{
    /Author (Eixo da Indústria, IFCE Maracanaú)
@@ -229,7 +271,4 @@ Optativa
 \end{longtable}
 
 }%PUDcorpo
-
-
-
 
