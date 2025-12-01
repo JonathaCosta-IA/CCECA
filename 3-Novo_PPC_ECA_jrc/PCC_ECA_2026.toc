@@ -1,0 +1,84 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {section}{\numberline {1}\MakeUppercase []{Apresentação do Projeto Pedagógico do Curso}}{11}{section.1}%
+\contentsline {section}{\numberline {2}Contextualização da Instituição}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Breve Histórico do Campus Maracanaú}{12}{subsection.2.1}%
+\contentsline {section}{\numberline {3}JUSTIFICATIVA}{12}{section.3}%
+\contentsline {section}{\numberline {4}\MakeUppercase []{Fundamentação Legal}}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Normativas Nacionais}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Normativas Institucionais}{14}{subsection.4.2}%
+\contentsline {section}{\numberline {5}OBJETIVOS DO CURSO}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Objetivo Geral}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Objetivos Específicos}{15}{subsection.5.2}%
+\contentsline {section}{\numberline {6}FORMAS DE INGRESSO}{16}{section.6}%
+\contentsline {section}{\numberline {7}ÁREAS DE ATUAÇÃO}{16}{section.7}%
+\contentsline {section}{\numberline {8}PERFIL PROFISSIONAL DO EGRESSO}{17}{section.8}%
+\contentsline {section}{\numberline {9}Competências Desenvolvidas pelo Egresso}{18}{section.9}%
+\contentsline {section}{\numberline {10}METODOLOGIA}{23}{section.10}%
+\contentsline {section}{\numberline {11}ESTRUTURA CURRICULAR}{23}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Organização Curricular}{24}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Matriz Curricular}{27}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Estágio Curricular}{29}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Atividades Complementares}{30}{subsection.11.4}%
+\contentsline {subsubsection}{Visitas técnicas}{30}{section*.6}%
+\contentsline {subsubsection}{Feiras, Seminários, Congressos e Semanas Tecnológicas}{30}{section*.7}%
+\contentsline {subsubsection}{Programa de Monitoria e Bolsas de Trabalho}{30}{section*.8}%
+\contentsline {subsubsection}{Iniciação Científica com Bolsa ou de Forma Voluntária}{31}{section*.9}%
+\contentsline {subsubsection}{Grupos de Pesquisa}{32}{section*.10}%
+\contentsline {subsubsection}{Bolsa de Monitoria e de Trabalho}{33}{section*.11}%
+\contentsline {subsubsection}{Estágios não Obrigatórios}{33}{section*.12}%
+\contentsline {subsubsection}{AeroDesign}{33}{section*.13}%
+\contentsline {subsubsection}{Enactus}{33}{section*.14}%
+\contentsline {subsubsection}{Cooperação Internacional}{34}{section*.15}%
+\contentsline {subsubsection}{Outras Atividades Complementares}{34}{section*.16}%
+\contentsline {subsubsection}{Carga Horária por Modalidade de Atividade Complementar}{34}{section*.17}%
+\contentsline {subsubsection}{Aproveitamento de Atividades Complementares}{35}{section*.18}%
+\contentsline {subsection}{\numberline {11.5}Trabalho de Conclusão de Curso (PFC)}{37}{subsection.11.5}%
+\contentsline {subsubsection}{Entrega do Pré-Projeto do PFC}{37}{section*.19}%
+\contentsline {subsubsection}{Entrega do termo de aceite de orientação assinado pelo professor orientador}{38}{section*.20}%
+\contentsline {subsubsection}{Entrega de relatórios da execução de atividades referentes ao PFC}{38}{section*.21}%
+\contentsline {subsubsection}{Entrega da versão para apresentação pública}{38}{section*.22}%
+\contentsline {subsubsection}{Apresentação pública do PFC}{38}{section*.23}%
+\contentsline {subsubsection}{Entrega da versão final do PFC}{39}{section*.24}%
+\contentsline {section}{\numberline {12}APROVEITAMENTO E VALIDAÇÃO DO CONHECIMENTO}{40}{section.12}%
+\contentsline {section}{\numberline {13}AVALIAÇÃO DO PROJETO DO CURSO}{40}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Avaliação do Docente}{40}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Núcleo Docente Estruturante}{41}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Colegiado}{41}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Encontros Pedagógicos}{41}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Ações decorrentes dos processos de autoavaliação e avaliação externa}{42}{subsection.13.5}%
+\contentsline {section}{\numberline {14}AVALIAÇÃO DA APRENDIZAGEM}{42}{section.14}%
+\contentsline {section}{\numberline {15}EMISSÃO DE DIPLOMAS}{44}{section.15}%
+\contentsline {section}{\numberline {16}POLÍTICAS INSTITUCIONAIS NO ÂMBITO DO CURSO}{44}{section.16}%
+\contentsline {section}{\numberline {17}APOIO AO DISCENTE}{46}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Coordenação de Curso}{46}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Coordenadoria de Controle Acadêmico}{47}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Departamento de Extensão, Pesquisa, Pós-Graduação e Inovação}{47}{subsection.17.3}%
+\contentsline {subsection}{\numberline {17.4}Coordenadoria Técnico Pedagógica}{47}{subsection.17.4}%
+\contentsline {subsection}{\numberline {17.5}Coordenadoria de Assuntos Estudantis}{48}{subsection.17.5}%
+\contentsline {subsubsection}{Serviço de Enfermagem}{48}{section*.25}%
+\contentsline {subsubsection}{Serviço de Nutrição}{49}{section*.26}%
+\contentsline {subsubsection}{Serviço de Psicologia}{49}{section*.27}%
+\contentsline {subsubsection}{Serviço Social}{50}{section*.28}%
+\contentsline {subsection}{\numberline {17.6}Biblioteca}{51}{subsection.17.6}%
+\contentsline {subsubsection}{Empréstimo}{51}{section*.29}%
+\contentsline {subsubsection}{Setor Multimídia}{51}{section*.30}%
+\contentsline {subsection}{\numberline {17.7}Núcleo de Acessibilidade às Pessoas com Necessidades Educacionais Específicas}{51}{subsection.17.7}%
+\contentsline {subsection}{\numberline {17.8}Setor de Estágio}{52}{subsection.17.8}%
+\contentsline {subsection}{\numberline {17.9}Setor de Educação Física e Esporte}{52}{subsection.17.9}%
+\contentsline {section}{\numberline {18}CORPO TÉCNICO-ADMINISTRATIVO}{53}{section.18}%
+\contentsline {section}{\numberline {19}INFRAESTRUTURA}{54}{section.19}%
+\contentsline {subsection}{\numberline {19.1}Laboratórios}{54}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}Ambientes Administrativos}{55}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Bloco II do Eixo Tecnológico da Indústria}{55}{subsection.19.3}%
+\contentsline {section}{\numberline {A}COMPROVANTE DO IMÓVEL}{57}{appendix.A}%
+\contentsline {section}{\numberline {B}PORTARIAS}{60}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Portaria Nº 9140/GAB-MAR/DG-MAR/MARACANAÚ, DE 23 DE SETEMBRO DE 2025\xspace }{60}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}Portaria Nº 9141/GAB-MAR/DG-MAR/MARACANAÚ, DE 23 DE SETEMBRO DE 2025\xspace }{61}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}Portaria n° 023/GDG de 27 de março de 2013\xspace }{62}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}Portaria n° 042/GDG de 22 de abril de 2013\xspace }{63}{subsection.B.4}%
+\contentsline {subsection}{\numberline {B.5}Portaria n° 430/Ministério da Educação de 03 de maio de 2021\xspace }{64}{subsection.B.5}%
+\contentsline {section}{\numberline {C}REGULAMENTAÇÃO DA ORGANIZAÇÃO DIDÁTICA}{67}{appendix.C}%
+\contentsline {section}{\numberline {D}PROJETO DO BLOCO II DO EIXO TECNOLÓGICO DA INDÚSTRIA}{70}{appendix.D}%
+\contentsline {section}{\numberline {E}LEGISLAÇÃO}{74}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Decreto Federal n 5.626, de 22 de dezembro de 2005}{74}{subsection.E.1}%
+\contentsline {section}{\numberline {F}PROGRAMAS DE UNIDADE DIDÁTICA}{83}{appendix.F}%
